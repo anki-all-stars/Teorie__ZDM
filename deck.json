@@ -1,0 +1,1836 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "15a7cf8a-5529-11eb-bb95-38d5479d0148",
+    "deck_config_uuid": "15a7dda4-5529-11eb-bb95-38d5479d0148",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "15a7dda4-5529-11eb-bb95-38d5479d0148",
+            "currentValue": 120,
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxLife": 120,
+            "maxTaken": 60,
+            "name": "FIT [Long Term Goal]",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "recover": 5,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 15
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-0152bea26d2f2a789e4c2310df8efdf7cd55da89.jpg",
+        "paste-017d5c8904b804706c5caaa6e92a6c3949a84529.jpg",
+        "paste-0aaf41e2a17edc306adb0d2f1a0fc25baa4611c3.jpg",
+        "paste-10a5a7c9a33c6f3dd9a321321eacad45d9fc4a17.jpg",
+        "paste-2c97b52e43ff809baaa74b974baa13ec89121a20.jpg",
+        "paste-39511edcbc14f3b7f70ad15ce6ff9de3c8cea4e7.jpg",
+        "paste-59a61ccefd20e5f077290360032febf5f8df0751.jpg",
+        "paste-7548597708170dbb5c1caa07a2fa2f79f1dcb79a.jpg",
+        "paste-7b0b99719ca05a8df43744ae2407b33b08a33606.jpg",
+        "paste-9f2aef1e74384032430c611f8893df65f646f4ca.jpg",
+        "paste-a481625a60d21a4e1f872f9458a9942f11786fbf.jpg",
+        "paste-d0f8751f07a6f7855ad3fa5320b2740c00e153b5.jpg",
+        "paste-e4f857df7d9fad50f573706658d7ce23f60833cf.jpg",
+        "paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg",
+        "paste-e62b39fa5363762510abc7b5bc256240552647ee.jpg",
+        "paste-f704c94272d46f6da68f372d25f455063f422120.jpg"
+    ],
+    "mid": 1610061542753,
+    "name": "Teorie::ZDM",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n color: black;\n text-align: center;\n background-color: white;\n}\n\n.solution {\n text-align: left;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Question",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Solution",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Math",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "zdm-1-tyden"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{Question}}\n\n<hr id=answer>\n\n<div style=\"text-align: center;\">\n    <div style=\"display: inline-block; text-align: left;\">\n\t\t{{Solution}}\n    </div>\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Question}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\n.extra {\n\tcolor: #dddddd;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze Extra Gray",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br><br><br>\n<div class=\"extra\">\n{{Extra}}\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice ekvivalence",
+                "<div>Binární relaci R na množině A nazýváme ekvivalencí na A, pokud je symetrická, reflexivní a tranzitivní</div>"
+            ],
+            "guid": "gcZV_<#hw@",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice rozkladu na množině, jeho podmínek, prvky rozkladu",
+                "Pro neprázdnou množinu A nazýváme <b>systém \\( A = \\{ A_i : i \\in I \\} \\) neprázdných podmnožin</b> množiny A <b>rozkladem na množině</b> A, pokud splňuje následuící podmínky:<div>\\(\\bigcup_{i \\in I}A_i = A\\) - <b>podmínka pokrytí</b><br></div><div>\\(A_i \\cap A_j = \\emptyset \\) pro&nbsp;\\( \\forall i, j \\in I, i \\neq j \\) - <b>podmínka diskunkce</b></div><div><b><br></b></div><div>Prvky&nbsp;\\(A_i\\) tohoto systému nazýváme <b>třídami rozkladu</b> na množině A.</div>"
+            ],
+            "guid": "b-gg{XqKKd",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice třídy prkvu",
+                "<div>Nechť \\(R\\) je ekvivalence na množině A, potom pro každý prvek&nbsp;\\(a \\in A\\) nazýváme třídou prvku a v ekvivalence R podmnožinu</div><div><br></div><div>\\( [a]_R&nbsp; = \\{ x \\in A; xRa \\} \\)</div>"
+            ],
+            "guid": "w5*Z#&n2X",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o rozkladu definovaných ekvivalencí",
+                "Každá ekvivalence na neprázdné množině&nbsp;\\(X\\) definuje rozklad této množiny a každý rozklad na&nbsp;\\(X\\) definuje ekvivalenci."
+            ],
+            "guid": "fp_+FVaMcF",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Faktorová množina \\( \\chi \\)",
+                "Rozklad&nbsp;\\( \\chi \\) nazýváme faktorová množina množiny&nbsp;\\(X\\) podle ekvivalence&nbsp;\\(R\\). Místo&nbsp;\\( \\chi \\) se používá značení&nbsp;\\( X / R \\)"
+            ],
+            "guid": "k#yvo^bGqf",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice přirozené zobrazení",
+                "Přirozené zobrazení je zobrazení \\(f\\) z množiny X na faktorovou množinu&nbsp;\\( X / R \\) definované předpisem&nbsp;\\( a \\longmapsto [a]_R \\)"
+            ],
+            "guid": "vJ0++lIWN0",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o vlastnostech (procesech) ekvivalencí (průnik, sjednocení)",
+                "Nechť R, S jsou ekvivalence na množině X. Potom platí<div>1.&nbsp;\\( R \\cap S \\) je ekvivalence na \\( X \\)</div><div>2.&nbsp;\\(R \\cup S \\) je ekvivalence na&nbsp;\\(X\\), právě když \\( ( R \\circ S ) \\cup ( S \\circ R ) \\subseteq R \\cup S\\)</div>"
+            ],
+            "guid": "fW9n]RiAe=",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice horní mez :&nbsp;\\( O \\) - notace, relační + množinová",
+                "(Relační) Jsou-li dány funkce \\(f(n)\\) a \\(g(n)\\), pak řekněme, že&nbsp;\\(f(n)\\) je nižšího řádu než&nbsp;\\(g(n)\\), psáno&nbsp;\\(f(n) = O(g(n))\\),&nbsp; jestliže<div><br></div><div>\\( \\exists c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0: f(n) \\leq c.g(n) \\)<br><br>(Množinová) Je-li dána fce \\(g(n)\\), pak&nbsp;\\(O(g(n))\\) je definována jako (nekonečná) množina funkcí</div><div><br></div><div>\\( \\{ f(n): \\exists c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0: f(n) \\leq c.g(n) \\} \\)<br></div>"
+            ],
+            "guid": "r%&CI`U)o)",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Asymptotická dolní mez: \\( \\Omega \\)-notace delační, množinová",
+                "(Relační) Jsou-li dány fce&nbsp;\\(f(n)\\) a&nbsp;\\(g(n)\\), pak řekněme, že&nbsp;\\(f(n)\\) je nejméně řádu&nbsp;\\(g(n)\\), psáno&nbsp;\\(f(n) = \\Omega(g(n))\\), jestliže<div><br></div><div>\\( \\exists c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0: f(n) \\geq c.g(n) \\)<br></div><div><br></div><div>(Množinová) Je-li dána fce&nbsp;\\(g(n)\\), pak \\(\\Omega(g(n)\\) je definována jako</div><div><br></div><div><br></div><div>\\( \\{ f(n): \\exists c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0: f(n) \\geq c.g(n) \\} \\)<br></div>"
+            ],
+            "guid": "c80%c~F_!S",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Asymptotická těsná mez:&nbsp;\\( \\Theta \\)-notace, relační, množinová",
+                "(Relační) Jsou-li dány fce&nbsp;\\(f(n)\\) a&nbsp;\\(g(n)\\), pak řekneme, že&nbsp;\\(f(n)\\) je téhož řádu jako&nbsp;\\(g(n)\\), psáno&nbsp;\\(f(n) = \\Theta(g(n))\\), jestliže<div><br></div><div>\\( \\exists c_1, c_2 \\in R^+ \\;\\exists n_0 \\in N^+ \\;\\forall n \\geq n_0: c_1.g(n) \\leq f(n) \\leq c_2.g(n) \\)</div><div><br></div><div>(Množinová) Je-li dána fce&nbsp;\\(g(n)\\), pak \\( \\Theta(g(n)) \\) je definována jako (nekonečná) množina funkcí</div><div><br></div><div>\\( \\{ f(n): \\exists c_1, c_2 \\in R^+ \\;\\exists n_0 \\in N^+ \\;\\forall n \\geq n_0: c_1.g(n) \\leq f(n) \\leq c_2.g(n) \\} \\)</div>"
+            ],
+            "guid": "O=.(Q/0qMY",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Implikace&nbsp;\\(\\Theta\\)-notace",
+                "\\(f(n) = \\Theta(g(n))\\) implikuje&nbsp;\\(f(n) = O(g(n))\\)<br><div>\\(f(n) = \\Theta(g(n))\\) implikuje&nbsp;\\(f(n) = \\Omega(g(n))\\)</div><div><br></div>\\(f(n) = \\Theta(g(n)) \\Leftrightarrow f(n) = O(g(n)) \\wedge f(n) = \\Omega(g(n))\\)<br><div><br></div>"
+            ],
+            "guid": "F(%d78G_F4",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Striktně větší horní mez:&nbsp;\\(o\\)-notace",
+                "(Relační) Jsou-li dány funkce&nbsp;\\(f(n)\\) a&nbsp;\\(g(n)\\), pak řekněme, že&nbsp;\\(f(n)\\) je striktně nižšího řádu než&nbsp;\\(g(n)\\), psáno&nbsp;\\(f(n)=o(g(n))\\), jestliže<div><br></div><div>\\( \\forall c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0 : f(n) &lt; c.g(n) \\)<br></div><div><div><br></div><div>(Množinová) Je-li dána fce&nbsp;\\(g(n)\\), pak&nbsp;\\(o(g(n))\\) je definována jako (nekonečná) množina funkcí</div></div><div><br></div><div>\\( \\{ f(n): \\forall c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0 : f(n) &lt; c.g(n) \\} \\)</div>"
+            ],
+            "guid": "Q%U_TP//?=",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Striktně menší mez: \\( \\omega \\)-notace",
+                "(Relační) Jsou-li dány funkce&nbsp;\\(f(n), g(n)\\), pak řekněme, že \\(f(n)\\) je striktně vyššího řádu než&nbsp;\\(g(n)\\), psáno&nbsp;\\(f(n) = \\omega(g(n))\\), jestliže<div><br></div><div>\\( \\forall c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0 : f(n) &gt; c.g(n) \\)<br></div><div><br></div><div>(Množinová) Je-li dána funkce&nbsp;\\(g(n)\\), pak&nbsp;\\(\\omega(g(n))\\) je definována jako (nekonečná) množina funkcí</div><div><br></div><div>\\(\\{f(n): \\forall c \\in R^+ \\exists n_0 \\in N^+ \\forall n \\geq n_0 : f(n) &lt; c.g(n) \\}\\)</div>"
+            ],
+            "guid": "m(]DO:Lha$",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zákony asymptotické aritmetiky (5 pravidel)",
+                "Tranzitivita:&nbsp;\\( f(n) = O(g(n)) \\wedge g(n) = O(h(n) \\Rightarrow f(n) = O(h(n)) \\)<br>(podobně pro \\(\\Omega, \\Theta, o, \\omega\\))<div><br></div><div>Reflexivita:&nbsp;\\( f(n) = O(f(n)) \\), podobně pro&nbsp;\\( \\Omega, \\Theta\\)</div><div><br></div><div>Symetrie:&nbsp;\\(f(n) = \\Theta(g(n)) \\Leftrightarrow g(n) = \\Theta(f(n))\\)</div><div><br></div><div>Transpoziční symetrie:</div><div>\\(f(n) = O(g(n)) \\Leftrightarrow g(n) = \\Omega(f(n)\\)<br></div><div>\\(f(n) = o(g(n)) \\Leftrightarrow g(n) = \\omega(f(n)) \\)</div><div><br></div><div>Inkluze:</div><div>\\(f(n) = o(g(n)) \\Rightarrow f(n) = O(g(n))\\)</div><div>\\(f(n) = \\Theta(g(n)) \\Rightarrow f(n) = O(g(n))\\)</div><div>\\(f(n) = \\omega(g(n)) \\Rightarrow f(n) = \\Omega(g(n))\\)</div><div>\\(f(n) = \\Theta(g(n)) \\Rightarrow f(n) = \\Omega(g(n))\\)</div>"
+            ],
+            "guid": "jsL7N@DFbY",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zákony asymptotické aritmetiky - tabulka",
+                "<div>\\(o\\) odpovídá&nbsp;\\(&lt;\\)<br></div><div>\\(O\\) odpovídá&nbsp;\\(\\leq\\)</div><div>\\(\\Theta\\) odpovídá&nbsp;\\(=\\)<br></div>\\(\\Omega\\) odpovídá&nbsp;\\(\\geq\\)<div>\\(\\omega\\) odpovídá&nbsp;\\(&gt;\\)<br></div>"
+            ],
+            "guid": "l2^X={pQ@s",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice slabého principu matematické indukce",
+                "Nechť&nbsp;\\(n_0 \\in Z \\) a budiž&nbsp;\\( V(n) \\) vlastnost celých čísel, která má smysl pro&nbsp;\\( n \\geq n_0 \\). Předpokládejme, že následující předpoklady jsou splněny:<div><br></div><div>1. Základní krok:&nbsp;\\(V(n_0) \\) platí</div><div>2. Indukční krok:&nbsp;\\(\\forall n \\in Z, n \\geq n_0\\) je pravdivá implikace: jestliže platí&nbsp;\\(V(n)\\), pak platí i&nbsp;\\(V(n+1)\\)</div><div><br></div><div>Potom&nbsp;\\(V(n)\\) platí pro&nbsp;\\( \\forall n \\in Z, n \\geq n_0 \\)</div>"
+            ],
+            "guid": "oN#gS&b[Z;",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice silného principu matematické indukce",
+                "Nechť&nbsp;\\( n_0 \\in Z\\), nechť&nbsp;\\(V(n)\\) je vlastnost celých čísel, která má smysl pro&nbsp;\\(n \\geq n_0 \\). Předpokládejme, že následjucící předpoklady jsou splněny:<div>1.&nbsp;\\(V(n_0)\\) platí</div><div>2.&nbsp;\\( \\forall n \\in Z, n \\geq n_0 \\) je pravdivá následující implikace: jestliže platí&nbsp;\\(V(k)\\) pro všechna&nbsp;\\(k=n_0, n_o + 1, ..., n\\), pak platí i&nbsp;\\(V(n+1)\\)</div><div><br></div><div>Potom&nbsp;\\(V(n)\\) platí pro \\( \\forall n \\in Z, n \\geq n_0\\)</div>"
+            ],
+            "guid": "q,mYzns:xu",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Altenativní silný princip matematické indukce",
+                "Nechť&nbsp;\\(n_0 \\in Z\\), nechť&nbsp;\\(V(n)\\) je vlastnost celých čísel, která má smysl pro \\( n \\geq n_0 \\). Nechť \\( m \\in N \\)<div><br></div><div>Předpokládjme, že následující předpoklady jsou splňeny:</div><div>1.&nbsp;\\(V(n_0), V(n_0 + 1), V(n_0 + 2), V(n_0 + m)\\) platí</div><div>2.&nbsp;\\( \\forall n \\geq n_0 + m \\in Z\\) je pravdivá následující implikace: jestliže platí&nbsp;\\(V(k)\\) pro všechna&nbsp;\\(k=n_0, n_0 + 1, ..., n\\), pak platí i&nbsp;\\(V(n+1)\\)</div><div>2b. \\( \\forall n \\geq n_0 + m \\in Z: V(n_0) \\wedge V(n_0 + 1) \\wedge ... \\wedge V(n) \\Rightarrow V(n+1) \\)</div><div><br></div><div>Potom&nbsp;\\(V(n)\\) platí pro&nbsp;\\(\\forall n \\in Z, n \\geq n_0\\)</div>"
+            ],
+            "guid": "K!woNp-<p8",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Strukturální indukce",
+                "Uvažujme množinu M definovanou induktivně pomocí nějakých základních pravidel&nbsp;\\(P0\\) a induktivních pravidel&nbsp;\\(P1\\). Uvažujme vlastnost \\(V(m)\\), která má smysl pro všechny prvky&nbsp;\\(m \\in M\\)<div><br></div><div>Předpokládjme, že jsou splňeny následující podmínky:</div><div>1.&nbsp;\\(V\\) je splněna pro všechny prvky, kterí jsou do M dodány základními pravidly</div><div>2. Pro každé induktivní pravidlo platí: Jestliže je&nbsp;\\(V\\) splňena pro prvky jeho předpokladů, pak je splňena i pro prvky jeho závěru</div><div><br></div><div>Pak je vlastnost V splňena pro všechny prvky&nbsp;\\( m \\in M \\)</div>"
+            ],
+            "guid": "Ms$3wT)F~?",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice částečného uspořádání, posetu",
+                "Binární relaci \\( R \\) na množině&nbsp;\\(X\\) nazýváme částečně uspořádáním, pokud je reflexivní, antisymetrická a tranzitivní. Dvojici \\( (X, R) \\) pak nazýváme částečně uspořádanou množinou neboli poset"
+            ],
+            "guid": "E_.X4M_ze/",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice ostrého uspořádání",
+                "Nechť \\(\\preceq\\) je částečné uspořádání na množině \\(X\\). Binární relaci \\(\\prec\\) definouvanou vztahem<div><br></div><div>\\(x \\prec y \\Leftrightarrow x \\preceq y \\wedge x \\neq y\\)</div><div><br></div><div>nazýváme ostrým uspořádáním odvozeným od částečného uspořádání \\(\\preceq\\)</div>"
+            ],
+            "guid": "K6t=ossQl_",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o vlastnosti částečného a částečného ostrého uspořádání ( 3 pravidla ) ( vlastnosti ostrého, ostré vúči neostrému, tranzitivita)",
+                "Nechť \\((A, \\preceq)\\) je částečně uspořádaná množina a \\(\\prec\\) je odvozené ostré uspořádání. Potom platí:<div><br></div><div>1. \\(\\prec\\) je ireflexivní, asymetrická a tranzitivní relace</div><div>2. \\((\\forall a, b \\in X) a \\prec b \\Rightarrow a \\preceq b\\)</div><div>3. \\((\\forall a, b, c \\in X) (a \\prec b \\wedge b \\preceq c ) \\vee ( a \\preceq b \\wedge b \\prec c ) \\Rightarrow a \\prec c\\)</div>"
+            ],
+            "guid": "x@PdYCGcMd",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o ostrém k částečnému uspořádání",
+                "Nechť \\(R\\) je binární relace na množině \\(X\\), která je asymetrická a tranzitivní. Definujeme-li na \\(X\\) relaci \\(\\preceq = R \\cup \\Delta_X\\), pak je \\((X, \\preceq)\\) částečně uspořádaná množina.<div><br></div><div>Navíc, relace ostrého uspořádání \\(\\prec\\) odvozená od částečného uspořádání \\(\\preceq\\) je právě relace \\(R\\)</div>"
+            ],
+            "guid": "Ek8X9x$)3i",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice redukce relace, definice relace pokrytí",
+                "Nechť \\(R\\) je binární relace na množině \\(X\\). Redukcí relace \\(R\\) nazýváme relaci \\(R_r\\) definovanou vztahem<div><br></div><div>\\(R_r = R \\setminus R^2\\)</div><div><br></div><div>Je-li \\(R\\) ostrým uspořádáním na \\(X\\), pak jeho redukci \\(R_r\\) nazýváme relací pokrytí nebo též bezprostředního předcházení</div>"
+            ],
+            "guid": "E|=GNee#4N",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Uzávěry z redukce \\(\\prec\\)",
+                "Nechť \\((X, \\preceq)\\) je konečná částečně uspořádaná množina a \\(\\prec = \\preceq&nbsp; \\setminus \\Delta_X\\) je odvozené ostré uspořádání na \\(X\\). Potom platí:<div><br></div><div>1. Ostré uspořádání \\(\\prec\\) je rovno tranzitivnímu uzávěru své redukce</div><div>2. Výchozí částečně uspořádání \\(\\preceq\\) je rovno reflexivně-tranzitivnímu uzávěru redukce odvozeného ostrého uspořádání&nbsp; \\(\\prec\\)&nbsp;</div>"
+            ],
+            "guid": "iTEfANl@w2",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice úplného uspořádání",
+                "Nechť \\((A, \\preceq)\\) je částečně uspořádáná množina.<div><br></div><div>- Řekněme, že \\(a, b \\in A\\) jsou porovnatelné, jestliže \\(a \\preceq b \\vee b \\preceq a\\)<br><br>- Řekněme, že \\(a, b \\in A\\) jsou neporovnatelné, jestliže \\(\\neg a \\preceq b \\wedge \\neg b \\preceq a\\)<br><br>- Řekněme, že \\(\\preceq\\) je úplné uspořádání (též lineární) jestliže jsou každé dva prvky porovnatelné</div>"
+            ],
+            "guid": "d@O{?t>D~}",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o existenci \\(\\preceq_u\\)",
+                "Pro každou konečnou částečně uspořádanou množinu \\((A, \\preceq)\\) existuje rozšíření na úplné uspořádání \\(\\preceq_u\\)"
+            ],
+            "guid": "t3OdDr<8ri",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice direktního součinu",
+                "Nechť \\((A_1, \\preceq_1),&nbsp;(A_2, \\preceq_2), ... ,(A_m, \\preceq_m)\\) jsou částečně uspořádané množiny.&nbsp;<div><br></div><div>Na množině \\(A = A_1 \\times A_2 \\times ... \\times A_m\\) definujme binární relaci direktní součin \\(\\preceq\\) takto:<div>\\((a_1, ..., a_m) \\preceq (b_1, ..., b_m) \\Leftrightarrow \\forall i \\in i = \\{1, 2, ..., m\\}: a_i \\preceq_i b_i\\)<br></div></div>"
+            ],
+            "guid": "xJ:uK;>$_[",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice lexikografického uspořádání",
+                "Nechť \\((A_1, \\preceq_1),&nbsp;(A_2, \\preceq_2), ... ,(A_m, \\preceq_m)\\)&nbsp;jsou částečně uspořádané množiny. Na množině \\(A = A_1 \\times A_2 \\times ... \\times A_m\\) definujme binární relaci<br><div><br></div><div>Lexikografické uspořádání \\(\\preceq_L\\) takto:</div><div><br></div><div>\\((a_1, ..., a_m) \\preceq_L (b_1, ....m b_m)\\) platí právě tehdy, jestliže \\(a_i = b_i\\) pro všechna \\(i = 1, 2, ..., m\\) nebo existuje index k takový, že \\(a_k \\prec_k b_k\\) a současně \\(a_i = b_i\\) pro všechna \\(1 \\leq i \\leq k - 1\\)</div>"
+            ],
+            "guid": "dyj73HV~Mo",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice minima, maxima, nejmenšího prvku, největšího prvku",
+                "Nechť \\((A, \\preceq)\\) je částečně uspořádaná množina a \\(\\prec\\) je odvozené ostré uspořádání. Nechť \\(M \\subseteq A\\) je neprázdná podmnožina množiny \\(A\\).<div><br></div><div>- prvek \\(a \\in A\\) je nejmenší prvek množiny M, jestliže \\(a \\in M\\) a pro všechna \\(x \\in M\\) platí \\(a \\preceq x\\)</div><div><br></div><div>- prvek \\(b \\in A\\) je největší prvek množiny M, jestliže \\(b \\in M\\) a pro všechna \\(x \\in M\\) platí \\(x \\preceq b\\)</div><div><br></div><div>- prvek \\(c \\in A\\) je minimální prvek množiny M, jesltiže \\(c \\in M\\) a neexistuje \\(x \\in M : x \\prec c\\)</div><div>značíme \\(c = min(M)\\)</div><div><br></div><div>- prvek \\(d \\in A\\) je maximální prvek množiny M, jestliže \\(d \\in M\\) a neexistuje \\(x \\in M : d \\prec x\\)</div><div>značíme \\(d = max(M)\\)</div>"
+            ],
+            "guid": "ED}F{32dki",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věty o vlastnostech minim a maxim pro (nekonečné) částečně ospořádané množiny",
+                "Nechť \\((A, \\preceq)\\) je částečně uspořádaná množina, \\(M \\subseteq A\\) nějaká její neprázdná podmnožina.<div><br></div><div>1. Jestliže existuje nejmenší prvek \\(M\\), pak je jediný</div><div><br></div><div>2. Jestliže je \\(m\\) nejmenší prvek \\(M\\), pak \\(m = min(M)\\) a jiné minimum už množina \\(M\\) nemá<br></div><div><br></div><div>3. Jestliže \\(m_1 = min(M), m_2 = min(M)\\) a \\(m_1 \\preceq m_2\\), pak \\(m_1 = m_2\\)</div><div><br></div><div><br></div><div>- Obdobná tvrzení platí pro největší / maximální prvky</div>"
+            ],
+            "guid": "LLMx!fzae=",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věty o maximech, minimech,největším,nejmenším prvku na konečných množinách",
+                "Každá konečná neprázdná podmnožina \\(M\\) <b>částečně uspořádané</b> množiny \\((A, \\preceq)\\) má <b>alespoň jeden minimální</b> a alespoň jeden maximální prvek<div><br></div><div>Nechť \\((A, \\preceq)\\) je <b>úplně uspořádaná</b> množina a \\(M\\) její neprázdná podmnožina. <b>Je-li \\(a = min(M)\\), pak je a nejmenší prvek \\(M\\).</b> Podobně je-li \\(b=max(M)\\), pak je největší prvek \\(M\\).</div><div><br></div><div>Je-li \\((A, \\preceq)\\) konečná <b>úplně uspořádaná</b> množina a \\(M\\) její neprázdná podmnožina, pak má \\(M\\) <b>nejmenší i největší prvek</b></div>"
+            ],
+            "guid": "k;pvw{+U}F",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice dobře uspořádané množiny",
+                "Nechť \\((A, \\preceq)\\) je částečně uspořádaná množina. Řekněme, že \\((A, \\preceq)\\) je dobře uspořádaná množina, jestliže každá neprázdná podmnožina \\(M \\subseteq A\\) má nejmenší prvek"
+            ],
+            "guid": "zd`7&!~7kh",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o vztahu dobře uspořádané množiny a úplného uspořádání",
+                "Každé dobré uspořádání je současně uspořádáním úplným"
+            ],
+            "guid": "I`&Xaz=?Wm",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Principl dobrého uspořádání",
+                "\\((N, \\leq)\\) je dobře uspořádaná množina"
+            ],
+            "guid": "iEIh/!L!_b",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o principech indukce a dobrého uspořádání",
+                "Principy indukce jsou ekvivalentní s principem dobrého uspořádání"
+            ],
+            "guid": "m/tC^L<upv",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vztah mezi dobrým a úplným uspořádáním",
+                "Dobré uspořádání =&gt; úplné uspořádání<div>Úplné konečné uspořádání =&gt; dobré uspořádání</div>"
+            ],
+            "guid": "cM#kj,PA[h",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice kombinačního čísla neboli binomického koeficientu",
+                "Pro přirozená čísla \\(k \\leq n\\) defungujeme kombinační číslo neboli binomický koeficient jako<div><br></div><div>C(n, k) = \\( {n \\choose k}&nbsp; = \\frac{n!}{k!(n - k)!}\\)</div>"
+            ],
+            "guid": "rOj]s3d19T",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o kombinacích s opakováním",
+                "Mějme množinu \\(X\\) obsahující \\(n\\) prvků. Počet různých kombinací \\(k\\) prvků s opakováním z množiny \\(X\\) je roven<div><br></div><div>\\( {{n + k - 1}\\choose{n - 1}}&nbsp; =&nbsp; {{n + k - 1}\\choose{k}} \\)</div>"
+            ],
+            "guid": "lH5a{qS:5F",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Věta o (permutaci s) počtu identických prvků",
+                "Nechť posloupnost \\(S\\) délky \\(n\\) má \\(n_1\\) identických prvků typu \\(1\\), \\(n_2\\) identických prvků typu \\(2\\), ... a \\(n_k\\) identických prvků typu \\(k\\).&nbsp;<div><br></div><div>Potom je počet možných uspořádání posloupnosti \\(S\\) roven \\(\\frac{n!}{n_1!n_2!...n_k!}\\)</div>"
+            ],
+            "guid": "i%Kwc&vgR]",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Počet všech možných druhů permutací (6)",
+                "Uvažujme množinu obsahujících \\(n\\) prvků<div><br></div><div>1. Počet způsobů, jak prvky seřadit (počet permutací) je \\(n!\\)</div><div><br></div><div>2. Počet způsobů, jak seřadit prvky s opakovanými výskyty (počet permutací s opakováním) je \\(\\frac{n!}{n_1!n_2!...n_k!}\\)</div><div><br></div><div>3. Počet způsobů, jak vybrat \\(k\\) prvků bez opakování, přičemž záleží na pořadí (počet variací), je \\(\\frac{n!}{(n-k)!} = {n\\choose k} * k!\\)</div><div><br></div><div>4. Počet způsobů, jak vybrat \\(k\\) prvků s opakováním, přičemž záleží na pořadí (počet variací s opakováním)&nbsp;\\(n^k\\)</div><div><br></div><div>5. Počet způsobů, jak vybrat&nbsp;\\(k\\) prvků bez opakování, přičemž nezáleží na pořadí (počet kombinací) je&nbsp;\\( n\\choose k\\)</div><div><br></div><div>6. Počet způsobů, jak vybrat&nbsp;\\(k\\) prvků s opakováním, přičemž nezáleží na pořadí (počet kombinací s opakováním) je&nbsp;\\({n + k - 1}\\choose k\\)</div>"
+            ],
+            "guid": "x)n~r!K)dZ",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Co je to množina?",
+                "<img src=\"paste-e4f857df7d9fad50f573706658d7ce23f60833cf.jpg\">"
+            ],
+            "guid": "sbSzPhCvn4",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg\"><div><img src=\"paste-2c97b52e43ff809baaa74b974baa13ec89121a20.jpg\"><br></div>",
+                "<img src=\"paste-e62b39fa5363762510abc7b5bc256240552647ee.jpg\">"
+            ],
+            "guid": "ri65)}5:_n",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg\"><div><img src=\"paste-d0f8751f07a6f7855ad3fa5320b2740c00e153b5.jpg\"><br></div>",
+                "<img src=\"paste-0152bea26d2f2a789e4c2310df8efdf7cd55da89.jpg\">"
+            ],
+            "guid": "G8Z?{&IAdl",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg\"><div><img src=\"paste-39511edcbc14f3b7f70ad15ce6ff9de3c8cea4e7.jpg\"><br></div>",
+                "<img src=\"paste-10a5a7c9a33c6f3dd9a321321eacad45d9fc4a17.jpg\">"
+            ],
+            "guid": "O!.R^kOC%?",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg\"><div><img src=\"paste-9f2aef1e74384032430c611f8893df65f646f4ca.jpg\"><br></div>",
+                "<img src=\"paste-a481625a60d21a4e1f872f9458a9942f11786fbf.jpg\">"
+            ],
+            "guid": "t;i:F-PVTv",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg\"><div><img src=\"paste-7b0b99719ca05a8df43744ae2407b33b08a33606.jpg\"><br></div>",
+                "<img src=\"paste-017d5c8904b804706c5caaa6e92a6c3949a84529.jpg\">"
+            ],
+            "guid": "xlCk.!Fh!R",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-0aaf41e2a17edc306adb0d2f1a0fc25baa4611c3.jpg\"><br>obor hodnot",
+                "<img src=\"paste-7548597708170dbb5c1caa07a2fa2f79f1dcb79a.jpg\">"
+            ],
+            "guid": "EzFINgqNKX",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<img src=\"paste-0aaf41e2a17edc306adb0d2f1a0fc25baa4611c3.jpg\"><br><img src=\"paste-f704c94272d46f6da68f372d25f455063f422120.jpg\"><br>",
+                "<img src=\"paste-59a61ccefd20e5f077290360032febf5f8df0751.jpg\">"
+            ],
+            "guid": "B=Cw-1Nw&v",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cup(B \\cup C)=^?(A \\cup B) \\cup C\\] {{c1::je::není/je}} pravda, podle zákona {{c1::asociativity}}",
+                "Zákony asociativity<br>\\[<br>\\begin{array}{l}<br>A \\cup(B \\cup C)=(A \\cup B) \\cup C \\\\<br>A \\cap(B \\cap C)=(A \\cap B) \\cap C<br>\\end{array}<br>\\]"
+            ],
+            "guid": "it_Ud|SSU>",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap(B \\cap C)=(A \\cap B) \\cap C\\] {{c1::je::není/je}} pravda, podle zákona {{c1::asociativity}}",
+                "Zákony asociativity<br>\\[<br>\\begin{array}{l}<br>A \\cup(B \\cup C)=(A \\cup B) \\cup C \\\\<br>A \\cap(B \\cap C)=(A \\cap B) \\cap C<br>\\end{array}<br>\\]"
+            ],
+            "guid": "J]7mZy^Bvm",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap(B \\cup C)=(A \\cap B) \\cup(A \\cap C)\\] {{c1::je::není/je}} pravda, podle zákona {{c1::distributivity}}",
+                "Zákony distributivity<br>\\[<br>\\begin{array}{l}<br>A \\cap(B \\cup C)=(A \\cap B) \\cup(A \\cap C) \\\\<br>A \\cup(B \\cap C)=(A \\cup B) \\cap(A \\cup C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "BVVgR.4TW|",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap(B \\cup C)=(A \\cup B) \\cap(A \\cup C)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
+                ""
+            ],
+            "guid": "tYpAxVl+&~",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cup(B \\cap C)=(A \\cup B) \\cap(A \\cup C)\\] {{c1::je::není/je}} pravda, podle zákona {{c1::distributivity}}",
+                "Zákony distributivity<br>\\[<br>\\begin{array}{l}<br>A \\cap(B \\cup C)=(A \\cap B) \\cup(A \\cap C) \\\\<br>A \\cup(B \\cap C)=(A \\cup B) \\cap(A \\cup C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "dK|-jBs]pg",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ \\emptyset \\cup A=A \\] {{c1::je::není/je}} pravda, podle zákona {{c1::jednotky}}",
+                "Zákony jednotky<br>\\[<br>A \\cup \\emptyset=\\emptyset \\cup A=A, \\quad A \\cap \\mathcal{U}=\\mathcal{U} \\cap A=A<br>\\]"
+            ],
+            "guid": "CMYu%>S8t4",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ \\mathcal{U} \\cap A=A\\] {{c1::je::není/je}} pravda, podle zákona {{c1::jednotky}}",
+                "Zákony jednotky<br>\\[<br>A \\cup \\emptyset=\\emptyset \\cup A=A, \\quad A \\cap \\mathcal{U}=\\mathcal{U} \\cap A=A<br>\\]"
+            ],
+            "guid": "Kg/D8g-|6G",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[A \\cup \\mathcal{U}=\\mathcal{U}\\] {{c1::je::není/je}} pravda, podle zákona {{c1::nuly}}",
+                "Zákony nuly<br>\\[<br>A \\cup \\mathcal{U}=\\mathcal{U} \\cup A=\\mathcal{U}, \\quad A \\cap \\emptyset=\\emptyset \\cap A=\\emptyset<br>\\]"
+            ],
+            "guid": "IB[6#l4gEq",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[\\emptyset \\cap A=\\emptyset\\] {{c1::je::není/je}} pravda, podle zákona {{c1::nuly}}",
+                "Zákony nuly<br>\\[<br>A \\cup \\mathcal{U}=\\mathcal{U} \\cup A=\\mathcal{U}, \\quad A \\cap \\emptyset=\\emptyset \\cap A=\\emptyset<br>\\]"
+            ],
+            "guid": "P+TZOYB,;E",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[\\emptyset \\cap A = A \\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
+                ""
+            ],
+            "guid": "g,?#f*13y6",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cup \\bar{A} = \\mathcal{U}\\] {{c1::je::není/je}} pravda, podle zákona {{c1::doplňku}}",
+                "Zákony doplňku<br>\\[A \\cup \\bar{A}=\\bar{A} \\cup A=\\mathcal{U}\\]"
+            ],
+            "guid": "d;4>cgLm,w",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap(B \\cup C)=(A \\cup B) \\cap(A \\cup C)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::}}",
+                "hint: Zákony distributivity<br>\\[<br>\\begin{array}{l}<br>A \\cap(B \\cup C)=(A \\cap B) \\cup(A \\cap C) \\\\<br>A \\cup(B \\cap C)=(A \\cup B) \\cap(A \\cup C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "sI%J(Y0_sd",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ \\emptyset \\cap A=A \\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
+                "hint: Zákony jednotky<div>\\[<br>A \\cup \\emptyset=\\emptyset \\cup A=A, \\quad A \\cap \\mathcal{U}=\\mathcal{U} \\cap A=A<br>\\]</div>"
+            ],
+            "guid": "eKCMsMN;eQ",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definiční obor zobrazení {{c1::\\(f: \\mathcal{D}(f)=\\{a \\in A ;(a, b) \\in f\\} \\subseteq A\\)}}<br>",
+                ""
+            ],
+            "guid": "B3>[&-0jra",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Obor hodnot zobrazení {{c1::\\(f: \\mathcal{H}(f)=\\{b \\in B ;(a, b) \\in f\\} \\subseteq B\\)}}<br>",
+                ""
+            ],
+            "guid": "oAcsN4[M>@",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice množinové inkluze je<div>\\(A \\subseteq B \\Leftrightarrow_{df}\\)&nbsp;<span style=\"color: var(--text-fg);\">{{c1::\\((\\forall x \\in \\mathcal{U})(x \\in A \\Rightarrow x \\in B)\\)}}</span></div>",
+                ""
+            ],
+            "guid": "ghUFbE|r[j",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice vlastní podmnožiny je<br>\\(A \\subset B \\Leftrightarrow_{df} \\)&nbsp; {{c1::\\((A \\subseteq B) \\wedge(A \\neq B)\\)}}<br>",
+                ""
+            ],
+            "guid": "Es(}!.;^y[",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice množinové rovnosti \\(A\\) a \\(B\\) je<br>\\(A=B \\Leftrightarrow_{df} \\) {{c1::\\((\\forall x \\in \\mathcal{U})(x \\in A \\Leftrightarrow x \\in B)\\)}}",
+                ""
+            ],
+            "guid": "GPX8-,V8Mm",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice doplněku \\(A(\\) v universu \\(\\mathcal{U})\\) je<div><br></div><div>\\(\\bar{A}=\\)&nbsp; {{c1::\\(\\{x \\in \\mathcal{U} ; x \\notin A\\}\\)}}</div>",
+                ""
+            ],
+            "guid": "q-pOTuvt+*",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice průniku \\(A\\) a \\(B\\) je \\(\\quad A \\cap B=\\) {{c1::\\(\\{x \\in \\mathcal{U} ; x \\in A \\wedge x \\in B\\}\\),}}",
+                ""
+            ],
+            "guid": "e/NZXyAW*?",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice&nbsp;sjednocení \\(A\\) a \\(B\\) je<br><br>\\(A \\cup B=\\)&nbsp; {{c1::\\(\\{x \\in \\mathcal{U} ; x \\in A \\vee x \\in B\\}\\)}}",
+                ""
+            ],
+            "guid": "i^?C6N7^5P",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice&nbsp;rozdil \\(A\\) a \\(B\\) je <br><br>\\(A \\backslash B= \\) {{c1::\\( \\{x \\in \\mathcal{U} ; x \\in A \\wedge x \\notin B\\}\\),}}",
+                ""
+            ],
+            "guid": "eG_`!iQZp6",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice kartézského součinu \\(A\\) a \\(B\\) je:<div><br></div><div>&nbsp;\\(A \\times B=\\)&nbsp; {{c1::\\(\\{(a, b) \\in ? ; a \\in A \\wedge b \\in B\\}\\)}}</div>",
+                ""
+            ],
+            "guid": "&k;IyrO<9",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ \\overline{\\bar{A}}=A\\] {{c1::je::není/je}} pravda, podle zákona {{c1::involuce}}",
+                "Zákon involuce \\(\\overline{\\bar{A}}=A\\)"
+            ],
+            "guid": "P8,<KBd7zg",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap A=A \\] {{c1::není::není/je}} pravda, podle zákona {{c1::idempotence}}",
+                "Zákony idempotence<br>\\[<br>A \\cup A=A . \\quad A \\cap A=A<br>\\]"
+            ],
+            "guid": "e#V~I]Ut9o",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cup(A \\cap B)=A\\] {{c1::je::není/je}} pravda, podle zákona {{c1::absorpce}}",
+                "Zákony absorpce<br>\\[<br>A \\cup(A \\cap B)=A, \\quad A \\cap(A \\cup B)=A<br>\\]"
+            ],
+            "guid": "J8PsC539sD",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cup(A \\cap B)=B\\] {{c1::není::není/je}} pravda, podle zákona {{c1::}}",
+                "hint: Zákony absorpce<br>\\[<br>A \\cup(A \\cap B)=A, \\quad A \\cap(A \\cup B)=A<br>\\]"
+            ],
+            "guid": "EN_P<?%57s",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap(A \\cup B)=A\\] {{c1::je::není/je}} pravda, podle zákona {{c1::absorpce}}",
+                "Zákony absorpce<br>\\[<br>A \\cup(A \\cap B)=A, \\quad A \\cap(A \\cup B)=A<br>\\]"
+            ],
+            "guid": "xGov{WB}u9",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ B \\cap(A \\cup B)=A\\] {{c1::není::není/je}} pravda, podle zákona {{c1::}}",
+                "hint: Zákony absorpce<br>\\[<br>A \\cup(A \\cap B)=A, \\quad A \\cap(A \\cup B)=A<br>\\]"
+            ],
+            "guid": "e]*&;EOOWH",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\cap(A \\cup B)=A \\] {{c1::je::není/je}} pravda, podle zákona {{c1::absorpce}}",
+                "Zákony absorpce<br>\\[<br>A \\cup(A \\cap B)=A, \\quad A \\cap(A \\cup B)=A<br>\\]"
+            ],
+            "guid": "kPkHpo7U(j",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\backslash(B \\cup C)=(A \\backslash B) \\cap(A \\backslash C)\\] {{c1::je::není/je}} pravda, podle zákona {{c1::De Morganova}}",
+                "De Morganovy zákony<br>\\[<br>\\begin{array}{l}<br>A \\backslash(B \\cup C)=(A \\backslash B) \\cap(A \\backslash C) \\\\<br>A \\backslash(B \\cap C)=(A \\backslash B) \\cup(A \\backslash C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "f=_2mNM)!_",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\backslash(B \\cup C)=(B \\backslash A) \\cap(C \\backslash A)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
+                "hint: De Morganovy zákony<br>\\[<br>\\begin{array}{l}<br>A \\backslash(B \\cup C)=(A \\backslash B) \\cap(A \\backslash C) \\\\<br>A \\backslash(B \\cap C)=(A \\backslash B) \\cup(A \\backslash C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "q`b9<8oF:l",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\backslash(B \\cap C)=(A \\backslash B) \\cap(A \\backslash C)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
+                "hint: De Morganovy zákony<br>\\[<br>\\begin{array}{l}<br>A \\backslash(B \\cup C)=(A \\backslash B) \\cap(A \\backslash C) \\\\<br>A \\backslash(B \\cap C)=(A \\backslash B) \\cup(A \\backslash C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "k]jM+g2Ld_",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\[ A \\backslash(B \\cap C)=(A \\backslash B) \\cup(A \\backslash C)\\] {{c1::je::není/je}} pravda, podle zákona {{c1::De Morganova}}",
+                "De Morganovy zákony<br>\\[<br>\\begin{array}{l}<br>A \\backslash(B \\cup C)=(A \\backslash B) \\cap(A \\backslash C) \\\\<br>A \\backslash(B \\cap C)=(A \\backslash B) \\cup(A \\backslash C)<br>\\end{array}<br>\\]"
+            ],
+            "guid": "bUENZe]?Y1",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice sjednocení na více množinách je {{c1::\\(\\bigcup_{k=1}^{n} A_{k}=\\left\\{x \\in \\mathcal{U} ; \\exists k \\in\\{1,2, \\ldots, n\\}: x \\in A_{k}\\right\\}\\)}}",
+                ""
+            ],
+            "guid": "pSHf|W}/2z",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definice průniku na více množinách je: {{c1::\\(\\bigcap_{k=1}^{n} A_{k}=\\left\\{x \\in \\mathcal{U} ; \\forall k \\in\\{1,2, \\ldots, n\\}: x \\in A_{k}\\right\\}\\)}}",
+                ""
+            ],
+            "guid": "p%c]XaF5#:",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Restrikce ( zúžení ) zobrazení zmenší&nbsp;{{c1::Df::Df/Hf}} funkce na jeho podmnožinu",
+                "restrikce (zúžení) zobrazení \\(f: A \\rightarrow B\\) na množinu \\(M \\subseteq A\\) :<br>\\(\\left.f\\right|_{M}: M \\rightarrow B\\) takové, že \\(\\left.f\\right|_{M}(a)=f(a)\\) pro každé \\(a \\in M\\)."
+            ],
+            "guid": "Ir~g[X~IBL",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zobrazení \\( f : N \\rightarrow N, f(x) = x + 10\\) {{c1::není::je/není}} surjektivní",
+                "Zobrazení f: \\(A \\rightarrow B\\) nazveme surjektivní (na): \\(\\mathcal{H}(f)=B\\)."
+            ],
+            "guid": "G+G1]{1aB",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zobrazení \\( f : R \\rightarrow R, f(x) = x + 10\\) {{c1::je::je/není}} surjektivní",
+                "Zobrazení f: \\(A \\rightarrow B\\) nazveme surjektivní (na): \\(\\mathcal{H}(f)=B\\)."
+            ],
+            "guid": "EIqH2mL)%_",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zobrazení je injektivní, právě když každému prvku z {{c1::Hf::Df/Hf}} je přiřazen právě jeden prvek z {{c1::Df::}}",
+                "Zobrazení \\(f: A \\rightarrow B\\) nazveme injektivní (prosté):<br>\\[<br>(\\forall x, y \\in A)(x \\neq y \\Rightarrow f(x) \\neq f(y))<br>\\]"
+            ],
+            "guid": "eGv~T8Yv4N",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zobrazení \\(f: A \\rightarrow B\\) a \\(g: C \\rightarrow D\\) jsou shodná, práve když<br>{{c1::\\[<br>(A=C) \\wedge(B=D) \\wedge(\\forall a \\in A) f(a)=g(a)<br>\\]}}<br>",
+                ""
+            ],
+            "guid": "F_<4-vb?%O",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Složení \\((f \\circ g)\\) zobrazení \\(f: A \\rightarrow B\\) a \\(g: B \\rightarrow C\\) :<br>{{c1::\\[<br>(f \\circ g)(a)=g(f(a)) \\quad \\text { pro } a \\in A<br>\\]}}<br>",
+                ""
+            ],
+            "guid": "wW45}TkvFk",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pro \\(f: A \\rightarrow B\\) nazveme zobrazení \\(g: B \\rightarrow A\\) inverzním \\(k\\) zobrazení \\(f\\) jestliže {{c1::\\(f \\circ g=i d_{A} \\)}}&nbsp; a {{c1::\\( g \\circ f=i d_{B}\\)}}",
+                ""
+            ],
+            "guid": "cXE@8;:2NL",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jsou-li \\(A, B\\) konečné množiny, pak \\(|A \\cup B|=|A|+|B|-|A \\cap B|\\) je {{c1::pravda::pravda/nepravda}} podle {{c1::principu inkluze exkluze}}",
+                "Princip inkluze exkluze:<br><br>Jsou-li \\(A, B\\) konečné množiny, pak<br>\\[<br>|A \\cup B|=|A|+|B|-|A \\cap B|<br>\\]"
+            ],
+            "guid": "oySt%jcj*t",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jsou-li \\(A, B\\) konečné množiny, pak \\(|A \\cup B|=|A|+|B|\\) je {{c1::nepravda::pravda/nepravda}} podle {{c1::-}}",
+                "hint: Princip inkluze exkluze:<br><br>Jsou-li \\(A, B\\) konečné množiny, pak<br>\\[<br>|A \\cup B|=|A|+|B|-|A \\cap B|<br>\\]"
+            ],
+            "guid": "K(;n3:VP,Y",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jsou-li \\(A, B, C\\) konečné množiny, pak \\(|A \\cup B \\cup C|=\\) {{c1::\\(|A|+|B|+|C|-|A \\cap B|-|A \\cap C|-|B \\cap C|+|A \\cap B \\cap C|\\)}}",
+                ""
+            ],
+            "guid": "e#B;&hIn6L",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::je::je/není}} pravda, že \\(|\\{-1, -2, -3\\} \\cup N|=|N|\\)",
+                "Necht \\(A, B\\) jsou množiny, \\(B\\) je nekonečná a \\(|A| \\leq|B| .\\) Pak \\(|A \\cup B|=|B|\\)"
+            ],
+            "guid": "kN;PeCS2i0",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Množina&nbsp;\\(\\mathbb{Z}\\)&nbsp;{{c1::je::je/není}} spočetná",
+                ""
+            ],
+            "guid": "h{<euPG2Hs",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Obecná rovnice lineární rekurentní rovice&nbsp;\\(k \\in \\mathbb{N}\\) řádu je<div>{{c1::<div>\\[</div><div>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=b_{n}</div><div>\\]</div>}}<br></div><div><br></div>",
+                "pro všechna \\(n \\geq n_{0},\\) kde \\(n_{0} \\in \\mathbb{Z}, c_{i}(n)\\) pro \\(i=0, \\ldots, k-1\\) (tzv. koeficienty rovnice) jsou nějaké funkce \\(\\mathbb{Z} \\mapsto \\mathbb{R}\\), pričemž \\(c_{0}(n)\\) není identicky nulová funkce, a \\(\\left(b_{n}\\right)_{n=n_{0}}^{\\infty}\\) (tzv. pravá strana rovnice) je pevně zvolená posloupnost reálných čísel.<br>"
+            ],
+            "guid": "v,p1]O0B~]",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Obecná rekurentní rovnice \\(k \\in \\mathbb{N}\\) řádu je&nbsp;{{c1::homogenní::vlastnost}}, právě když {{c2::\\(b_{n}=0\\) pro všechna \\(n \\geq n_{0}\\)}}<div><br><div><div>\\[</div><div>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=b_{n}</div><div>\\]</div></div></div>",
+                ""
+            ],
+            "guid": "z=94n-98q",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "První difenence posloupnosti \\(\\left(a_{n}\\right)\\) je určena vztahem {{c1::\\(\\Delta a_{n}=a_{n+1}-a_{n}\\)}}",
+                ""
+            ],
+            "guid": "fe`@if@aDT",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "k-rá diference posloupnost je definována jako \\(\\Delta^{k}\\left(a_{n}\\right)=\\) {{c1::\\(\\Delta^{k-1}\\left(a_{n+1}\\right)-\\Delta^{k-1}\\left(a_{n}\\right) \\text { pro } k&gt;1\\)}}",
+                "Definice 3 (k-tá diference posloupnosti)<br>Pro danou posloupnost \\(\\left(a_{n}\\right)\\) a libovolné \\(k \\in \\mathbb{N}^{+}\\) definujeme \\(k\\) -tou diferenci posloupnosti takto:<br>\\[<br>\\begin{array}{l}<br>\\Delta^{1}\\left(a_{n}\\right)=\\Delta\\left(a_{n}\\right)=a_{n+1}-a_{n} \\quad \\text { pro } k=1 \\\\<br>\\Delta^{k}\\left(a_{n}\\right)=\\Delta^{k-1}\\left(a_{n+1}\\right)-\\Delta^{k-1}\\left(a_{n}\\right) \\text { pro } k&gt;1<br>\\end{array}<br>\\]"
+            ],
+            "guid": "6}6nMW5/f",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Má každá lineární rekurence alespoň jedno řešení?<br><br>{{c1::Ano}}",
+                "Věta 1 (o existenci a jednoznačnosti)<br>- Každá lineární rekurentní rovnice má nějaké řešení.<br>- Je-li dána lineární rekurentní rovnice řádu \\(k\\) a příslušné počáteční podmínky, pak existuje jediné řešení této rovnice, které splňuje dané počáteční podmínky."
+            ],
+            "guid": "FkAe.2!B}q",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Je možné aby dvě stejné rekurence se stejnými podmínkami měli jiná řešení?<br><br>{{c1::Ne}}",
+                "Věta 1 (o existenci a jednoznačnosti)<br>- Každá lineární rekurentní rovnice má nějaké řešení.<br>- Je-li dána lineární rekurentní rovnice řádu \\(k\\) a příslušné počáteční podmínky, pak existuje jediné řešení této rovnice, které splňuje dané počáteční podmínky."
+            ],
+            "guid": "N>+M.+E|.3",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Přidružená homogenní rekurentní rovnice k rovnici \\[<br>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=b_{n}<br>\\] je&nbsp;<br><br>{{c1::\\[<br>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=0<br>\\]}}<br>",
+                "<br><br>Text ze slidu:<br><br>Definice 6 (přidružená homogenní rovnice)<br>Uvažujme lineární rekurentní rovnici<br>\\[<br>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=b_{n}<br>\\]<br>pro všechna \\(n \\geq n_{0}\\). Potom se lineární homogenní rekurentní rovnice<br>\\[<br>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=0<br>\\]<br>nazývá k ní přidružená homogenní rovnice.<br>"
+            ],
+            "guid": "lPv&jHt?{h",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Řešení rekurentní rovnice se rovná součtu jejího {{c1::partikulárního}} a {{c2::homogenního}} řešení",
+                ""
+            ],
+            "guid": "QJTR1g{5h+",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Necht' je dána homogenní lineární rekurentní rovnice<br>\\[<br>a_{n+k}+c_{k-1}(n) \\cdot a_{n+k-1}+\\cdots+c_{1}(n) \\cdot a_{n+1}+c_{0}(n) \\cdot a_{n}=0<br>\\]<br>pro všechna \\(n \\geq n_{0}\\). Pak množina všech řešení je vektorový prostor dimenze {{c1::\\(k\\)}}",
+                ""
+            ],
+            "guid": "K5=6X%!mTY",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Charakteristický polynom Lineární rek. rovnice řádu \\(k\\) s konstantními koeficienty<br>\\[<br>a_{n+k}+c_{k-1} \\cdot a_{n+k-1}+\\cdots+c_{1} \\cdot a_{n+1}+c_{0} \\cdot a_{n}=b_{n}<br>\\]<div>sestrojíme&nbsp;<span style=\"color: var(--text-fg);\">{{c1::</span></div><div><span style=\"color: var(--text-fg);\">\\[</span></div>p(\\lambda)=\\lambda^{k}+c_{k-1} \\cdot \\lambda^{k-1}+\\cdots+c_{1} \\cdot \\lambda+c_{0}<br>\\]}}",
+                ""
+            ],
+            "guid": "gd*4VuAw.%",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Řešení homogenní lineární rekurentní rovnice s konstantními koeficienty s jedním charakterisitickým číslem \\(\\lambda\\) je&nbsp;{{c1::&nbsp;\\(\\left(\\lambda^{n}\\right)_{n=n_{0 } }^{\\infty}\\)}}",
+                "hint: Věta 4<br>Jestliže je \\(\\lambda\\) charakteristickým číslem homogenní lineární rekurentní rovnice s konstantními koeficienty<br>\\[<br>a_{n+k}+c_{k-1} \\cdot a_{n+k-1}+\\cdots+c_{1} \\cdot a_{n+1}+c_{0} \\cdot a_{n}=0<br>\\]<br>pro všechna \\(n \\geq n_{0}\\), pak posloupnost \\(\\left(\\lambda^{n}\\right)_{n=n_{0}}^{\\infty}\\) je jejím řešením."
+            ],
+            "guid": "PdRcmE^eM",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Řešení homogenní lineární rekurentní rovnice s konstantními koeficienty s jedním charakterisitickým číslem \\(\\lambda\\) s násobností je \\(m\\)&nbsp;{{c1:: \\(\\left(\\lambda^{n}\\right),\\left(n \\cdot \\lambda^{n}\\right), \\ldots,\\left(n^{m-1} \\cdot \\lambda^{n}\\right)\\) }}",
+                "Věta 6<br>Necht' je dána homogenní lineární rekurentní rovnice s konstantními koeficienty. Jestliže je \\(\\lambda\\) její charakteristické číslo s násobností \\(m\\), pak&nbsp;posloupnosti \\(\\left(\\lambda^{n}\\right),\\left(n \\cdot \\lambda^{n}\\right), \\ldots,\\left(n^{m-1} \\cdot \\lambda^{n}\\right)\\)&nbsp;jsou řešením dané rovnice a tvořílineárně nezávislou množinu."
+            ],
+            "guid": "g`Cq`4BRL4",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Řešení homogenní lineární rekurentní rovnice s konstantními koeficienty s jedním charakterisitickými čísli \\(\\lambda_{1}, \\ldots, \\lambda_{M}\\)&nbsp;a násobnostmi \\(m_{i} \\in \\mathbb{N}^{+} .\\)&nbsp; {{c1:: \\[<br>\\left(\\lambda_{1}^{n}\\right),\\left(n \\cdot \\lambda_{1}^{n}\\right), \\ldots,\\left(n^{m_{1}-1} \\cdot \\lambda_{1}^{n}\\right), \\ldots,\\left(\\lambda_{M}^{n}\\right),\\left(n \\cdot \\lambda_{M}^{n}\\right), \\ldots,\\left(n^{m_{M}-1} \\cdot \\lambda_{M}^{n}\\right)<br>\\]}}",
+                "Věta 7<br>Necht' je dána homogenní lineární rekurentní rovnice s konstantními koeficienty řádu \\(k .\\) Necht jsou \\(\\lambda_{1}, \\ldots, \\lambda_{M}\\) její rüzná charakteristická čísla, přičemž každé \\(\\lambda_{i}\\) má násobnost \\(m_{i} \\in \\mathbb{N}^{+} .\\) Pak je množina<br>\\[<br>\\left(\\lambda_{1}^{n}\\right),\\left(n \\cdot \\lambda_{1}^{n}\\right), \\ldots,\\left(n^{m_{1}-1} \\cdot \\lambda_{1}^{n}\\right), \\ldots,\\left(\\lambda_{M}^{n}\\right),\\left(n \\cdot \\lambda_{M}^{n}\\right), \\ldots,\\left(n^{m_{M}-1} \\cdot \\lambda_{M}^{n}\\right)<br>\\]<br>bází prostoru řešení dané rovnice."
+            ],
+            "guid": "s^okX#/$_8",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(\\left(b_{n}\\right)_{n=n_{0}}^{\\infty}\\) je kvazipolynom, jestliže existuje {{c1::\\(\\lambda \\in \\mathbb{R}\\) a polynom \\(P(n)\\) takový, že \\(b_{n}=P(n) \\lambda^{n}\\) pro všechna \\(n \\geq n_{0}\\)}}",
+                ""
+            ],
+            "guid": "Ha]G]#pAk$",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Partikulárním řešením rovnice s kvazipolynomiální pravou stranou je {{c1::\\[\\left(n^{m} Q(n) \\lambda^{n}\\right)\\]}}",
+                "Řešení rovnice pro kvazipolynomiální pravou stranu<br>Uvažujme rovnici<br>\\[<br>a_{n+k}+c_{k-1} a_{n+k-1}+\\cdots+c_{1} a_{n+1}+c_{0} a_{n}=b_{n}<br>\\]<br>pro všechna \\(n \\geq n_{0} .\\) Předpokládejme, že existují \\(\\lambda \\in \\mathbb{R}\\) a polynom \\(P(n)\\) takový, že \\(b_{n}=P(n) \\lambda^{n}\\) pro všechna \\(n \\geq n_{0}\\).<br>Necht' \\(m\\) je násobnost tohoto čísla \\(\\lambda\\) jako charakteristického čísla přidružené homogenní rovnice, přičemž \\(m=0\\) v připadě, že toto \\(\\lambda\\) vübec charakteristickým číslem není.<br>Pak existuje polynom \\(Q(n)\\) stupně stejného jako \\(P\\) takový, že<br>\\[<br>\\left(n^{m} Q(n) \\lambda^{n}\\right)<br>\\]<br>je řešením dané rovnice."
+            ],
+            "guid": "C[Ns@&/JUH",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pomocí principu&nbsp;{{c1::superpozice}} {{c2::sečteme partikulární a homogenní řešení rekurentní rovnice}} pro vypočítání obecného řešení rovnice",
+                ""
+            ],
+            "guid": "Je-ow]I&7S",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quicksort best case složitost&nbsp; {{c1::\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]}}",
+                "o QUICKSORT best case:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- QUICKSORT average case:<br>\\[<br>t(n)=t(9 n / 10)+t(n / 10)+\\Theta(n)<br>\\]<br>o MERGESORT:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- KARACUBA - rekurzivní násobení čísel:<br>\\[<br>t(n)=3 t(n / 2)+\\Theta(n)<br>\\]"
+            ],
+            "guid": "pt[^W,Q`#L",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "QUICKSORT average case:<br>{{c1::\\[<br>t(n)=t(9 n / 10)+t(n / 10)+\\Theta(n)<br>\\]}}<br>",
+                "o QUICKSORT best case:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- QUICKSORT average case:<br>\\[<br>t(n)=t(9 n / 10)+t(n / 10)+\\Theta(n)<br>\\]<br>o MERGESORT:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- KARACUBA - rekurzivní násobení čísel:<br>\\[<br>t(n)=3 t(n / 2)+\\Theta(n)<br>\\]"
+            ],
+            "guid": "xbj(t27[#@",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "MERGESORT složitost:<div>{{c1::\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]}}<br></div>",
+                "o QUICKSORT best case:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- QUICKSORT average case:<br>\\[<br>t(n)=t(9 n / 10)+t(n / 10)+\\Theta(n)<br>\\]<br>o MERGESORT:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- KARACUBA - rekurzivní násobení čísel:<br>\\[<br>t(n)=3 t(n / 2)+\\Theta(n)<br>\\]"
+            ],
+            "guid": "Hnx.V6]=5s",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "KARACUBA - rekurzivní násobení čísel:<br>{{c1::\\[<br>t(n)=3 t(n / 2)+\\Theta(n)<br>\\]}}<br>",
+                "o QUICKSORT best case:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- QUICKSORT average case:<br>\\[<br>t(n)=t(9 n / 10)+t(n / 10)+\\Theta(n)<br>\\]<br>o MERGESORT:<br>\\[<br>t(n)=2 t(n / 2)+\\Theta(n)<br>\\]<br>- KARACUBA - rekurzivní násobení čísel:<br>\\[<br>t(n)=3 t(n / 2)+\\Theta(n)<br>\\]"
+            ],
+            "guid": "ykD>L|oa5?",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Odhad řešení rekurekntní rovnice \\(t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)\\), kde&nbsp;\\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right) \\varepsilon&gt;0\\) je&nbsp;{{c1::t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)}}",
+                "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
+            ],
+            "guid": "oi7(?}6iq!",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Odhad řešení rekurekntní rovnice\\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\) je&nbsp; {{c1::t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)}}",
+                "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
+            ],
+            "guid": "H4VX_rB($",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Odhad řešení rekurekntní rovnice \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) (\\varepsilon&gt;0\\)&nbsp;je&nbsp; {{c1::t(n)=\\Theta(f(n))\\)}} za určitých podmínek",
+                "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
+            ],
+            "guid": "lu|F_m_nie",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podmínka 3. Mistrovské metody je&nbsp;<br><br>{{c1::\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\)&nbsp;}}<br>",
+                "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
+            ],
+            "guid": "eaI5X~KB:y",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Funkce&nbsp;&nbsp;\\(\\pi(n)\\) stoupá asymptoticky stejně jako {{c1::\\( \\frac{n}{log(n)} \\)}}",
+                "hint: Funkce \\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\) určuje počet prvočísel, která jsou menšínež \\(n .\\)"
+            ],
+            "guid": "JEW3bqR}t!",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Funkce \\( \\pi(n) \\) je definována pro Df a Hf: {{c1::\\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\)}}",
+                "hint: Funkce \\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\) určuje počet prvočísel, která jsou menšínež \\(n .\\)"
+            ],
+            "guid": "cZWd+Ooj:!",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Funkce \\( \\pi(n) \\) určuje {{c1::počet prvočísel, která jsou menší než \\(n\\)}}",
+                "hint: Funkce \\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\) určuje počet prvočísel, která jsou menšínež \\(n .\\)"
+            ],
+            "guid": "E103}Cbj)g",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;\\(a c \\equiv b c(\\bmod m)\\) implikuje \\(a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)\\) právě když&nbsp;{{c1::d je největší společný dělitel čísel m a c}}",
+                "hint: Věta 3<br>Necht \\(a, b, c \\in \\mathbb{Z}\\) a \\(m \\in \\mathbb{N}^{+}\\) a necht platí \\(a c \\equiv b c(\\bmod m)\\). Potom platí<br>\\[<br>a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)<br>\\]<br>kde \\(d\\) je největši společný dělitel čísel \\(m\\) a \\(c\\)."
+            ],
+            "guid": "O<1!Km+uBx",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;\\(a c \\equiv b c(\\bmod m)\\) implikuje {{c1::\\(a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)\\)}} právě když d je největší společný dělitel čísel m a c",
+                "hint: Věta 3<br>Necht \\(a, b, c \\in \\mathbb{Z}\\) a \\(m \\in \\mathbb{N}^{+}\\) a necht platí \\(a c \\equiv b c(\\bmod m)\\). Potom platí<br>\\[<br>a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)<br>\\]<br>kde \\(d\\) je největši společný dělitel čísel \\(m\\) a \\(c\\)."
+            ],
+            "guid": "b:i,@e=Wtb",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Malá fermatova věta říka&nbsp;{{c1::\\(a^{p-1} \\equiv 1 \\quad(\\bmod p)\\)}} za předpokladu, že&nbsp;{{c1::&nbsp;\\(\\operatorname{gcd}(a, p)=1)\\)}}",
+                "Věta 4 (Malá Fermatova věta)<br>Necht \\(p\\) je prvočíslo a \\(a \\in \\mathbb{N}^{+}\\) takové prirozené číslo, které není násobkem \\(p(\\) tedy \\(\\operatorname{gcd}(a, p)=1)\\). Potom plati<br>\\[<br>a^{p-1} \\equiv 1 \\quad(\\bmod p)<br>\\]"
+            ],
+            "guid": "r)4kt&eb8Y",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Důsledek malé fermatovy věty je \\(a \\in \\mathbb{N}^{+} \\Rightarrow\\)&nbsp;&nbsp;{{c1::\\(a^{p} \\equiv a(\\bmod p)\\)}}",
+                "hint: Důsledek fermatovi malé věty 1<br>Když \\(p\\) je prvočíslo a \\(a \\in \\mathbb{N}^{+}\\) potom \\(a^{p} \\equiv a(\\bmod p)\\)."
+            ],
+            "guid": "Heu)IiKr5f",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Multiplikativní inverzi čísla \\(a\\) které není násobkem prvočísla \\(p\\) v&nbsp;\\(\\bmod p\\) vypočítáme&nbsp;{{c1::\\(a^{p-2}\\)}}",
+                "hint: Věta 5<br>Pokud je \\(p\\) prvočíslo a číslo \\(a \\in \\mathbb{N}^{+}\\) není násobkem \\(p,\\) pak \\(a^{p-2}\\) je multiplikativní inverzí čísla \\(a(\\bmod p) .\\)"
+            ],
+            "guid": "uO;D_9lZkM",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;\\(a, b \\in \\mathbb{Z} .\\)&nbsp; právě když&nbsp;{{c1::existuje \\(k \\in \\mathbb{Z}\\) takové, že \\(b=k . a .\\)}}",
+                "Definice 1<br>(Dělitelnost) Necht \\(a, b \\in \\mathbb{Z} .\\) Řekneme, že \\(a\\) dělí \\(b,\\) značíme \\(a \\mid b,\\) jestliže existuje \\(k \\in \\mathbb{Z}\\) takové, že \\(b=k . a .\\) \\(V\\) takovém připadě řikáme, že \\(a\\) je dělitel \\(b\\) a \\(b\\) je násobek \\(a\\), také řikáme, že \\(b\\) je dělitelné \\(a\\). Pokud a nedělí \\(b\\), pišeme \\(a \\nmid b\\)."
+            ],
+            "guid": "rhTs~KEdZ(",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Je::Je/Není}} pravda, že \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(a \\mid(b+c)\\)?<br>",
+                "Věta 1<br>Necht' \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(a \\mid(b+c)\\).<br>(2) Jestliže \\(a \\mid b\\), pak \\(a \\mid(n b)\\) pro všechna \\(n \\in \\mathbb{Z}\\).<br>(3 \\(a \\mid b\\) právě tehdy, \\(k d y z^{z}|a||| b \\mid\\).<br>(4) Jestliže \\(a \\mid b\\) a \\(b \\neq 0,\\) tak \\(|a| \\leq|b|\\)"
+            ],
+            "guid": "QhrSlwHUQw",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Není::Je/Není}} pravda, že \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(b + c \\mid(a)\\)?<br>",
+                "Věta 1<br>Necht' \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(a \\mid(b+c)\\).<br>(2) Jestliže \\(a \\mid b\\), pak \\(a \\mid(n b)\\) pro všechna \\(n \\in \\mathbb{Z}\\).<br>(3 \\(a \\mid b\\) právě tehdy, \\(k d y z^{z}|a||| b \\mid\\).<br>(4) Jestliže \\(a \\mid b\\) a \\(b \\neq 0,\\) tak \\(|a| \\leq|b|\\)"
+            ],
+            "guid": "MxA3[S&7O<",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Existuje::Existuje/Neexistuje}} takové&nbsp;\\(n \\in \\mathbb{Z}\\), pro které platí, že pokud \\(a \\mid b\\) pro libovolné&nbsp;\\(a,b\\) pak \\(a \\mid(n b)\\)<br>",
+                "Věta 1<br>Necht' \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(a \\mid(b+c)\\).<br>(2) Jestliže \\(a \\mid b\\), pak \\(a \\mid(n b)\\) pro všechna \\(n \\in \\mathbb{Z}\\).<br>(3 \\(a \\mid b\\) právě tehdy, \\(k d y z^{z}|a||| b \\mid\\).<br>(4) Jestliže \\(a \\mid b\\) a \\(b \\neq 0,\\) tak \\(|a| \\leq|b|\\)"
+            ],
+            "guid": "gP;r@N[x0;",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Je {{c1::pravda::pravda/nepravda}}, že \\(a \\mid b\\) právě tehdy, \\( |a| \\mid | b |&nbsp; \\)",
+                "Věta 1<br>Necht' \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(a \\mid(b+c)\\).<br>(2) Jestliže \\(a \\mid b\\), pak \\(a \\mid(n b)\\) pro všechna \\(n \\in \\mathbb{Z}\\).<br>(3 \\(a \\mid b\\) právě tehdy, \\(k d y z^{z}|a||| b \\mid\\).<br>(4) Jestliže \\(a \\mid b\\) a \\(b \\neq 0,\\) tak \\(|a| \\leq|b|\\)"
+            ],
+            "guid": "c;G*Nv4IHW",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Je {{c1::nepravda::pravda/nepravda}}, že \\(a \\mid b\\) právě tehdy, \\( |b| \\mid | a |&nbsp; \\)",
+                "Věta 1<br>Necht' \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid b\\) a \\(a \\mid c\\), pak \\(a \\mid(b+c)\\).<br>(2) Jestliže \\(a \\mid b\\), pak \\(a \\mid(n b)\\) pro všechna \\(n \\in \\mathbb{Z}\\).<br>(3 \\(a \\mid b\\) právě tehdy, \\(k d y z^{z}|a||| b \\mid\\).<br>(4) Jestliže \\(a \\mid b\\) a \\(b \\neq 0,\\) tak \\(|a| \\leq|b|\\)"
+            ],
+            "guid": "b[kuY)zF)!",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Je::Je/Není}} pravda, že pokud \\(a \\mid(b+c)\\) a současně \\(a \\mid b\\), pak \\(a \\mid c\\)",
+                "Věta 2<br>Necht \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid(b+c)\\) a současně \\(a \\mid b\\), pak \\(a \\mid c\\).<br>(2) Plati, že \\(a \\mid b\\) a \\(a \\mid c\\) právě tehdy, \\(k d y z\\) pro všechna \\(m, n \\in \\mathbb{Z}\\) platí \\(a \\mid(m b+n c)\\)"
+            ],
+            "guid": "nV*u3!C!u6",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Je::Je/Není}} pravda, že pokud \\(a \\mid(b+c)\\) a současně \\(a \\mid b\\), pak \\(b \\mid c\\)",
+                "Věta 2<br>Necht \\(a, b, c \\in \\mathbb{Z}\\)<br>(1) Jestliže \\(a \\mid(b+c)\\) a současně \\(a \\mid b\\), pak \\(a \\mid c\\).<br>(2) Plati, že \\(a \\mid b\\) a \\(a \\mid c\\) právě tehdy, \\(k d y z\\) pro všechna \\(m, n \\in \\mathbb{Z}\\) platí \\(a \\mid(m b+n c)\\)"
+            ],
+            "guid": "N9}0kE=/7]",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pokud \\(a \\in \\mathbb{Z}\\) a \\(d \\in \\mathbb{N}^{+}\\).&nbsp;{{c1::Existují::Existují/Neexistují}} jednoznčně určená čísla \\(q \\in \\mathbb{Z}\\) \\(r \\in \\mathbb{N}\\) taková, že \\(a=q d+r\\) a \\(0 \\leq r&lt;d\\).",
+                "Věta 3 (O dělení se zbytkem)<br>Necht' \\(a \\in \\mathbb{Z}\\) a \\(d \\in \\mathbb{N}^{+}\\). Pak existují jednoznačně určená čísla \\(q \\in \\mathbb{Z}\\) \\(r \\in \\mathbb{N}\\) taková, že \\(a=q d+r\\) a \\(0 \\leq r&lt;d\\).<br>Číslo \\(q\\) nazveme celočíselný podíl a číslo \\(r\\) nazveme zbytkem po dělení \\(a\\) číslem \\(d\\)."
+            ],
+            "guid": "mKl#py%$>e",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pokud \\(a \\in \\mathbb{Z}\\) a \\(d \\in \\mathbb{N}^{+}\\).&nbsp;{{c1::Neexistují::Existují/Neexistují}} jednoznčně určená čísla \\(q \\in \\mathbb{Z}\\) \\(r \\in \\mathbb{N}\\) taková, že \\(a=q r+d\\) a \\(0 \\leq r&lt;d\\).",
+                "Věta 3 (O dělení se zbytkem)<br>Necht' \\(a \\in \\mathbb{Z}\\) a \\(d \\in \\mathbb{N}^{+}\\). Pak existují jednoznačně určená čísla \\(q \\in \\mathbb{Z}\\) \\(r \\in \\mathbb{N}\\) taková, že \\(a=q d+r\\) a \\(0 \\leq r&lt;d\\).<br>Číslo \\(q\\) nazveme celočíselný podíl a číslo \\(r\\) nazveme zbytkem po dělení \\(a\\) číslem \\(d\\)."
+            ],
+            "guid": "BO?u$oP3vn",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Výsledek operace&nbsp;\\(\\operatorname{gcd}(a,b)\\) je nula, pokud&nbsp;{{c1::alespoň jeden z a,b je nula::podmínky}}",
+                ""
+            ],
+            "guid": "D?)}-.qce_",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Císlo \\(d \\in \\mathbb{N}^{+}\\) je {{c1::největším společným dělitelem}} čísel \\(a, b\\), pokud je aspoň jedno z čísel \\(a, b\\) nenulové, a \\(d\\) je nejvetší z jejich společných dělitelu (pišeme \\( d = \\operatorname{gcd}( a, b))\\).<br>",
+                ""
+            ],
+            "guid": "fy%Yx|58G]",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Výsledek operace&nbsp;\\(\\operatorname{lcm}(a,b)\\) je nula, pokud&nbsp;{{c1::alespoň jeden z a,b je nula::podmínky}}",
+                ""
+            ],
+            "guid": "BZch8ap:ZQ",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "V jaké situaci se liší výsledek operace&nbsp;<span style=\"color: var(--text-fg);\">\\(\\operatorname{gcd}(a, b)\\) a&nbsp;</span>\\(\\operatorname{gcd}(|a|, b)\\) nebo \\(\\operatorname{gcd}(a, |b|)\\)?<br><br>{{c1::Vždy stejné i pro lcm}}<br>",
+                ""
+            ],
+            "guid": "FRaq;]ML8z",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>&nbsp;\\(\\operatorname{gcd}\\left(\\frac{a}{\\operatorname{gcd}(a, b)}, \\frac{b}{\\operatorname{gcd}(a, b)}\\right)=\\) {{c1::\\(1\\)}}</div>",
+                ""
+            ],
+            "guid": "rC%tRku~E0",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\\(\\operatorname{gcd}(a+c b, b)=\\){{c1::\\(\\operatorname{gcd}(a, b)\\)}} pro libovolné \\(c \\in \\mathbb{Z}\\)</div>",
+                ""
+            ],
+            "guid": "xgo$H#uR8q",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak pro \\(a,b \\in \\mathbb{Z}\\) zjistit nejmenší číslo, které je vyjídřitelné jako&nbsp;<span style=\"color: var(--text-fg);\">\\(m \\cdot a+n \\cdot b\\)?<br><br></span>{{c1::Toto číslo je rovno \\(\\operatorname{gcd}(a,b)\\)}}<span style=\"color: var(--text-fg);\"><br></span>",
+                "<span style=\"color: var(--text-fg);\">Věta 6</span><div>Největší společný dělitel celých nenulových čísel \\(a\\) a \\(b\\) je nejmenší kladné celé číslo vyjádřitelné jako \\(m \\cdot a+n \\cdot b,\\) kde \\(m, n \\in \\mathbb{Z}\\) \\((\\operatorname{gcd}(a, b)\\) je celočíselnou lineární kombinací \\(a\\) a \\(b\\) ).<br><br>Důsledek 1 (Bezoutova rovnost)<br>\\(\\operatorname{gcd}(a, b)=m \\cdot a+n \\cdot b\\) pro jistá \\(m, n \\in \\mathbb{Z}\\)<br></div>"
+            ],
+            "guid": "B@-4u,MId6",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lamého věta: Necht \\(a&gt;b \\in \\mathbb{N}\\) a označme \\(n\\) počet cifer čísla \\(b\\) v desitkové zápisu. Pak Eukleidů algoritmus pro \\(g c d(a, b)\\) vyžaduje nejvýše {{c1::\\(5 n\\)}} dělení.",
+                ""
+            ],
+            "guid": "LWt0sG/F6@",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jestliže \\(a \\mid b c\\) a čísla \\(a\\) a \\(b\\) jsou nesoudělná, potom {{c1::\\(a \\mid c \\)}}",
+                "Věta 9<br>Necht \\(a, b, c \\in \\mathbb{Z}\\). Jestliže \\(a \\mid b c\\) a čísla \\(a\\) a \\(b\\) jsou nesoudělná, potom \\(a \\mid c .\\)"
+            ],
+            "guid": "k^~[*u8`Y]",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pokračuj tímto",
+                "Věta 13<br>Necht \\(a, b \\in \\mathbb{Z}\\) jsou nenulové. Pak platí \\(\\operatorname{gcd}(a, b) \\cdot \\operatorname{lcm}(a, b)=|a| \\cdot|b| .\\)"
+            ],
+            "guid": "g*]<esJ=i%",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Necht \\(a, b \\in \\mathbb{Z}\\) jsou nenulové. Pak platí \\(\\operatorname{gcd}(a, b) \\cdot \\operatorname{lcm}(a, b)=\\) {{c1::\\(|a| \\cdot|b|\\)}}",
+                ""
+            ],
+            "guid": "In{#0,A9g2",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "&nbsp;\\(a \\equiv b(\\bmod m) = \\)&nbsp;{{c1::\\(m \\mid(a-b)\\)}}",
+                "hint: Definice 3 (Kongruence)<br>Necht' \\(a, b, m \\in \\mathbb{Z}\\), přičemž \\(m&gt;1\\)<br>Pokud \\(m \\mid(a-b)\\), řikáme, že a je kongruentní s \\(b\\) modulo \\(m\\) a pišeme \\(a \\equiv b(\\bmod m)\\)<br>- Pokud \\(m \\nmid(a-b)\\), řikáme, že \\(a\\) není kongruentní s \\(b\\) modulo \\(m\\) a pišeme \\(a \\neq b(\\bmod m)\\)"
+            ],
+            "guid": "eD89rZJtkn",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Třídu ekvivalence lze&nbsp;<span style=\"color: var(--text-fg);\">\\(\\equiv\\) lze reprezentovat&nbsp;</span>{{c1::nejmenším nezáporným číslem které obsahuje, tedy&nbsp;<span style=\"color: var(--text-fg);\">\\(\\mathcal{R}_{k}=[k]_{m}\\)</span><span style=\"color: var(--text-fg);\">}}&nbsp;</span><br>",
+                ""
+            ],
+            "guid": "N&cmzi_E&W",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><span style=\"color: var(--text-fg);\">\\(a \\oplus b=\\)</span><span style=\"color: var(--text-fg);\">{{c1::\\([a+b]_{m}\\)}}</span><br></div>",
+                ""
+            ],
+            "guid": "O@pf&<n~($",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\\(a \\odot b=\\){{c1::\\([a \\cdot b]_{m}\\)}}</div>",
+                ""
+            ],
+            "guid": "vq!Eis!nh",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Komutativní okruh s jednotkou je def jako&nbsp; {{c1::\\(\\left(\\mathbb{Z}_{m}, \\oplus, \\odot\\right)\\)}}",
+                ""
+            ],
+            "guid": "dOcR*GQw:$",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\\(<span style=\"color: var(--text-fg);\">a \\odot b=b \\odot a=1 \\quad \\Leftrightarrow \\quad \\operatorname{gcd}(a, m)=\\)</span><span style=\"color: var(--text-fg);\">{{c1::</span><span style=\"color: var(--text-fg);\">\\(</span><span style=\"color: var(--text-fg);\">1</span><span style=\"color: var(--text-fg);\">\\)</span><span style=\"color: var(--text-fg);\">}}</span></div>",
+                ""
+            ],
+            "guid": "jb6rscp1*+",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pro jaké modula \\( m \\) vždy existují multiplikativné inverze čísla \\(a\\)?<br><br>{{c1::pro prvočísla}}<br>",
+                "hint: Dúsledek 2 (existence inverze v prvočíselném modulu)<br>Když \\(m\\) je prvočíslo, \\(a \\neq 0\\) a \\(a \\in \\mathbb{Z}_{m}\\), pak existuje jediné celé číslo \\(b \\in \\mathbb{Z}_{m},\\) které vyhovuje rovnici<br>\\[<br>a \\odot b=b \\odot a=1<br>\\]<br>Číslo \\(b\\) je multiplikativní inverze prvku \\(a\\) modulo \\(m\\) a pišeme<br>\\[<br>b=a^{-1} \\quad(\\bmod m)<br>\\]<br>Důsledek 3<br>Komutativní okruh \\(\\left(\\mathbb{Z}_{m}, \\oplus, \\odot\\right)\\) je tělesem tehdy a jen tehdy, pokud \\(m\\) je prvočíslo. Takovému tělesu říkáme konečné těleso."
+            ],
+            "guid": "ey-Tp*igmD",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Konečné těleso je&nbsp;{{c1::komutativní okruh}} takové, že&nbsp;{{c1::<span style=\"color: var(--text-fg);\">\\(\\left(\\mathbb{Z}_{m}, \\oplus, \\odot\\right)\\),&nbsp;</span>\\(m\\) je prvočíslo<span style=\"color: var(--text-fg);\">}}</span><br>",
+                ""
+            ],
+            "guid": "wF`H~-np|l",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rovnice&nbsp;\\(10x + 5y = 1\\) se nazývá&nbsp;{{c1::diofantická}}",
+                "hint:<br>Definice 1 (lineární diofantická rovnice) Lineární diofantická rovnice je libovolná rovnice typu<br>\\[<br>a x+b y=c<br>\\]<br>s neznámými \\(x, y,\\) kde \\(a, b, c \\in \\mathbb{Z}\\), pro jejiž řešení rovněž platí \\(x, y \\in \\mathbb{Z}\\).<br>"
+            ],
+            "guid": "G.{d%k/G`F",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rovnice&nbsp;\\(4x + 8y = 2\\)&nbsp;{{c1::má::má/nemá}} alespoň jedno řešení",
+                "Věta 1 (o existenci řešení diofantické rovnice)<br>Lineární diofantická rovnice \\(a x+b y=c\\) má alespoň jedno řešení právě tehdy, \\(k d y^{ } \\operatorname{gcd}(a, b) \\mid c\\)"
+            ],
+            "guid": "qn/G(FQkC(",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Množina všechn řešení diofantické rovnice je&nbsp;{{c1::<span style=\"color: var(--text-fg);\">\\[</span><div>\\left\\{\\left(x_{0}+\\frac{b}{\\operatorname{gcd}(a, b)} \\cdot k, y_{0}-\\frac{a}{\\operatorname{gcd}(a, b)} \\cdot k\\right): k \\in \\mathbb{Z}\\right\\}</div>\n<span style=\"color: var(--text-fg);\">\\]</span>}}",
+                "<div>\\[</div>\n<div>\\left\\{\\left(x_{0}+\\frac{b}{\\operatorname{gcd}(a, b)} \\cdot k, y_{0}-\\frac{a}{\\operatorname{gcd}(a, b)} \\cdot k\\right): k \\in \\mathbb{Z}\\right\\}</div>\n<div>\\]</div>"
+            ],
+            "guid": "Ei?<@9B/>~",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lineární kongruance má řešení právě tehdy, když {{c1::\\(<span style=\"color: var(--text-fg);\">\\operatorname{gcd}(a, m) \\mid b\\)</span>}}",
+                "<div>Věta 3</div>\n<div>Lineární kongruence má řešení právě tehdy, \\(k d y \\check{z} \\operatorname{gcd}(a, m) \\mid b\\). Všechna řešení jsou tvaru</div>\n<div>\\[</div>\n<div>x=x_{0}+k \\cdot \\frac{m}{g c d(a, m)}</div>\n<div>\\]</div>\n<div>kde \\(k\\) je libovolné celé číslo a pro \\(x_{0}\\) existuje \\(y_{0}\\) takové, že dvojice \\(\\left(x_{0}, y_{0}\\right)\\) je řešením rovnice \\(a \\cdot x+m \\cdot y=b\\).</div>"
+            ],
+            "guid": "Gzb?{5a{EO",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Všechna řešení lineární kongruence jsou tvaru {{c1::\\(<span style=\"color: var(--text-fg);\">x=x_{0}+k \\cdot \\frac{m}{g c d(a, m)}</span><span style=\"color: var(--text-fg);\">\\)</span>}}",
+                "<div>Věta 3</div>\n<div>Lineární kongruence má řešení právě tehdy, \\(k d y \\check{z} \\operatorname{gcd}(a, m) \\mid b\\). Všechna řešení jsou tvaru</div>\n<div>\\[</div>\n<div>x=x_{0}+k \\cdot \\frac{m}{g c d(a, m)}</div>\n<div>\\]</div>\n<div>kde \\(k\\) je libovolné celé číslo a pro \\(x_{0}\\) existuje \\(y_{0}\\) takové, že dvojice \\(\\left(x_{0}, y_{0}\\right)\\) je řešením rovnice \\(a \\cdot x+m \\cdot y=b\\).</div>"
+            ],
+            "guid": "Kx(Z)M1(+|",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Systém lineárních kongruencí má řešení právě tehdy, když&nbsp;<span style=\"color: var(--text-fg);\">{{c1::\\(</span><span style=\"color: var(--text-fg);\">\\operatorname{gcd}\\left(m_{i}, m_{j}\\right)\\) dělí \\(a_{i}-a_{j}\\) pro všechna \\(i, j: 1 \\leq i&lt;j \\leq N\\)</span><span style=\"color: var(--text-fg);\">}}</span></div>",
+                "<div>Věta 6 (Zobecněná Čínská věta o zbytcích) Systém lineárních kongruencí:</div>\n<div>\\[</div>\n<div>\\begin{aligned}</div>\n<div>x &amp; \\equiv a_{1} \\quad\\left(\\bmod m_{1}\\right) \\\\</div>\n<div>x &amp; \\equiv a_{2} \\quad\\left(\\bmod m_{2}\\right) \\\\</div>\n<div>&amp; \\cdots \\\\</div>\n<div>x &amp; \\equiv a_{N} \\quad\\left(\\bmod m_{N}\\right)</div>\n<div>\\end{aligned}</div>\n<div>\\]</div>\n<div>má řešení právě tehdy, \\(k d y ž \\operatorname{gcd}\\left(m_{i}, m_{j}\\right)\\) dělí \\(a_{i}-a_{j}\\) pro všechna \\(i, j: 1 \\leq i&lt;j \\leq N\\). Pokud řešení existuje, je určeno jednoznačně modulo \\(\\operatorname{lcm}\\left(m_{1}, m_{2}, \\ldots, m_{N}\\right)\\)</div>"
+            ],
+            "guid": "j<#?<+bu}v",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
+        }
+    ]
+}
