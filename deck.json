@@ -1831,6 +1831,16 @@
             "guid": "j<#?<+bu}v",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "update {{c1::hello}}",
+                "update"
+            ],
+            "guid": "zU2<j<MWH;",
+            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
+            "tags": []
         }
     ]
 }
