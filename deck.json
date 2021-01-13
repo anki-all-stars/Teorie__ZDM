@@ -795,7 +795,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "\\[ A \\cap(B \\cup C)=(A \\cup B) \\cap(A \\cup C)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::}}",
+                "\\[ A \\cap(B \\cup C)=(A \\cup B) \\cap(A \\cup C)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
                 "hint: Zákony distributivity<br>\\[<br>\\begin{array}{l}<br>A \\cap(B \\cup C)=(A \\cap B) \\cup(A \\cap C) \\\\<br>A \\cup(B \\cap C)=(A \\cup B) \\cap(A \\cup C)<br>\\end{array}<br>\\]"
             ],
             "guid": "sI%J(Y0_sd",
@@ -1365,7 +1365,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Odhad řešení rekurekntní rovnice \\(t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)\\), kde&nbsp;\\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right) \\varepsilon&gt;0\\) je&nbsp;{{c1::t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)}}",
+                "Odhad řešení rekurekntní rovnice \\(t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)\\), kde&nbsp;\\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right) \\) je&nbsp;{{c1::\\(t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)}}",
                 "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
             ],
             "guid": "oi7(?}6iq!",
@@ -1375,7 +1375,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Odhad řešení rekurekntní rovnice\\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\) je&nbsp; {{c1::t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)}}",
+                "Odhad řešení rekurekntní rovnice\\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\) je&nbsp; {{c1::\\(t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)}}",
                 "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
             ],
             "guid": "H4VX_rB($",
@@ -1385,7 +1385,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Odhad řešení rekurekntní rovnice \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) (\\varepsilon&gt;0\\)&nbsp;je&nbsp; {{c1::t(n)=\\Theta(f(n))\\)}} za určitých podmínek",
+                "Odhad řešení rekurekntní rovnice \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) je&nbsp; {{c1::\\(t(n)=\\Theta(f(n))\\)}} za určitých podmínek",
                 "<br><br><br>hint: celá teorie mistrovské metody<br>Věta 1<br>Necht \\(a \\geq 1\\) a \\(b&gt;1\\) jsou reálné konstanty, \\(f(n)\\) kladná funkce jedné proměnné. Uvažujme rekurentní rovnici<br>\\[<br>t(n)=a \\cdot t\\left(\\frac{n}{b}\\right)+f(n)<br>\\]<br>kde \\(\\frac{n}{b}\\) müže znamenat bud' \\(\\left\\lfloor\\frac{n}{b}\\right\\rfloor\\) nebo \\(\\left\\lceil\\frac{n}{b}\\right.\\) ] a tyto rozdily zanedbáváme. Pak \\(t(n)\\) má následující asymptotické řešení:<br>(1) Pokud \\(f(n)=O\\left(n^{\\log _{b} a-\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\), \\(\\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a}\\right)\\)<br>(2) Pokud \\(f(n)=\\Theta\\left(n^{\\log _{b} a}\\right), \\operatorname{pak} t(n)=\\Theta\\left(n^{\\log _{b} a} \\log n\\right)\\)<br>(3) Pokud \\(f(n)=\\Omega\\left(n^{\\log _{b} a+\\varepsilon}\\right)\\) pro nějakou konstantu \\(\\varepsilon&gt;0\\) a pokud<br>\\[<br>a f\\left(\\frac{n}{b}\\right) \\leq d \\cdot f(n)<br>\\]<br>pro nějakou konstantu \\(d \\in(0,1)\\) a všechna \\(n \\geq n_{0}\\), \\(\\operatorname{pak} t(n)=\\Theta(f(n))\\)<br>"
             ],
             "guid": "lu|F_m_nie",
@@ -1415,7 +1415,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Funkce \\( \\pi(n) \\) je definována pro Df a Hf: {{c1::\\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\)}}",
+                "Funkce \\( \\pi(n) \\) má Df a Hf: {{c1::\\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\)}}",
                 "hint: Funkce \\(\\pi(n): \\mathbb{N}^{+} \\mapsto \\mathbb{N}\\) určuje počet prvočísel, která jsou menšínež \\(n .\\)"
             ],
             "guid": "cZWd+Ooj:!",
@@ -1435,7 +1435,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "&nbsp;\\(a c \\equiv b c(\\bmod m)\\) implikuje \\(a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)\\) právě když&nbsp;{{c1::d je největší společný dělitel čísel m a c}}",
+                "&nbsp;\\(a c \\equiv b c(\\bmod m)\\) implikuje \\(a \\equiv b \\left(\\bmod \\frac{m}{d}\\right)\\), právě když&nbsp;{{c1::d=gcd(m,c)}}",
                 "hint: Věta 3<br>Necht \\(a, b, c \\in \\mathbb{Z}\\) a \\(m \\in \\mathbb{N}^{+}\\) a necht platí \\(a c \\equiv b c(\\bmod m)\\). Potom platí<br>\\[<br>a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)<br>\\]<br>kde \\(d\\) je největši společný dělitel čísel \\(m\\) a \\(c\\)."
             ],
             "guid": "O<1!Km+uBx",
@@ -1455,7 +1455,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Malá fermatova věta říka&nbsp;{{c1::\\(a^{p-1} \\equiv 1 \\quad(\\bmod p)\\)}} za předpokladu, že&nbsp;{{c1::&nbsp;\\(\\operatorname{gcd}(a, p)=1)\\)}}",
+                "Malá fermatova věta říka&nbsp;{{c1::\\(a^{p-1} \\equiv 1 \\quad(\\bmod p)\\)}} za předpokladu, že&nbsp;{{c1::&nbsp;\\(\\operatorname{gcd}(a, p)=1\\)}}",
                 "Věta 4 (Malá Fermatova věta)<br>Necht \\(p\\) je prvočíslo a \\(a \\in \\mathbb{N}^{+}\\) takové prirozené číslo, které není násobkem \\(p(\\) tedy \\(\\operatorname{gcd}(a, p)=1)\\). Potom plati<br>\\[<br>a^{p-1} \\equiv 1 \\quad(\\bmod p)<br>\\]"
             ],
             "guid": "r)4kt&eb8Y",
@@ -1465,7 +1465,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Důsledek malé fermatovy věty je \\(a \\in \\mathbb{N}^{+} \\Rightarrow\\)&nbsp;&nbsp;{{c1::\\(a^{p} \\equiv a(\\bmod p)\\)}}",
+                "Důsledek malé fermatovy věty je pro všechny \\(a \\in \\mathbb{N}^{+} \\Rightarrow\\)&nbsp;&nbsp;{{c1::\\(a^{p} \\equiv a(\\bmod p)\\)}}",
                 "hint: Důsledek fermatovi malé věty 1<br>Když \\(p\\) je prvočíslo a \\(a \\in \\mathbb{N}^{+}\\) potom \\(a^{p} \\equiv a(\\bmod p)\\)."
             ],
             "guid": "Heu)IiKr5f",
@@ -1485,7 +1485,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "&nbsp;\\(a, b \\in \\mathbb{Z} .\\)&nbsp; právě když&nbsp;{{c1::existuje \\(k \\in \\mathbb{Z}\\) takové, že \\(b=k . a .\\)}}",
+                "&nbsp;\\(a \\mid b;&nbsp; a,b \\in \\mathbb{Z} .\\)&nbsp; právě když&nbsp;{{c1::existuje \\(k \\in \\mathbb{Z}\\) takové, že \\(b=k . a .\\)}}",
                 "Definice 1<br>(Dělitelnost) Necht \\(a, b \\in \\mathbb{Z} .\\) Řekneme, že \\(a\\) dělí \\(b,\\) značíme \\(a \\mid b,\\) jestliže existuje \\(k \\in \\mathbb{Z}\\) takové, že \\(b=k . a .\\) \\(V\\) takovém připadě řikáme, že \\(a\\) je dělitel \\(b\\) a \\(b\\) je násobek \\(a\\), také řikáme, že \\(b\\) je dělitelné \\(a\\). Pokud a nedělí \\(b\\), pišeme \\(a \\nmid b\\)."
             ],
             "guid": "rhTs~KEdZ(",
