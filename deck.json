@@ -6,6 +6,9 @@
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
             "autoplay": true,
             "crowdanki_uuid": "15a7dda4-5529-11eb-bb95-38d5479d0148",
             "currentValue": 120,
@@ -50,7 +53,7 @@
                 "minSpace": 1,
                 "perDay": 15
             },
-            "timer": 0
+            "timer": 1
         }
     ],
     "desc": "",
@@ -62,20 +65,28 @@
         "paste-017d5c8904b804706c5caaa6e92a6c3949a84529.jpg",
         "paste-0aaf41e2a17edc306adb0d2f1a0fc25baa4611c3.jpg",
         "paste-10a5a7c9a33c6f3dd9a321321eacad45d9fc4a17.jpg",
+        "paste-1d40d7652737134fd30caa8bb741d5dcf8b9d7be.jpg",
+        "paste-1e596a7945dd6ffa23bd268782fc4554a76b31b7.jpg",
         "paste-2c97b52e43ff809baaa74b974baa13ec89121a20.jpg",
+        "paste-33b00fa01b1099eda6935549166a97db4e6e27a4.jpg",
         "paste-39511edcbc14f3b7f70ad15ce6ff9de3c8cea4e7.jpg",
+        "paste-51967dc9dddadbdefe82235c0bb66d2cd040bb80.jpg",
         "paste-59a61ccefd20e5f077290360032febf5f8df0751.jpg",
+        "paste-74f3a48f33119bfab010b813e492e56234fd7eab.jpg",
         "paste-7548597708170dbb5c1caa07a2fa2f79f1dcb79a.jpg",
         "paste-7b0b99719ca05a8df43744ae2407b33b08a33606.jpg",
+        "paste-847975d8dbf8afb5196a289688beb5f385aa9e66.jpg",
+        "paste-8795fb74c652f8bc5df0dfb15327296c3b4431b5.jpg",
         "paste-9f2aef1e74384032430c611f8893df65f646f4ca.jpg",
         "paste-a481625a60d21a4e1f872f9458a9942f11786fbf.jpg",
         "paste-d0f8751f07a6f7855ad3fa5320b2740c00e153b5.jpg",
+        "paste-d5bf99a9e4a6421dea3ddf57fee5f03e29c1fd63.jpg",
         "paste-e4f857df7d9fad50f573706658d7ce23f60833cf.jpg",
         "paste-e56e6d58648b085db06bde4880a45967c527e47f.jpg",
         "paste-e62b39fa5363762510abc7b5bc256240552647ee.jpg",
         "paste-f704c94272d46f6da68f372d25f455063f422120.jpg"
     ],
-    "mid": 1610061542753,
+    "mid": 1552241799965,
     "name": "Teorie::ZDM",
     "note_models": [
         {
@@ -117,7 +128,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "zdm-1-tyden"
+                "zdm-11-tyden"
             ],
             "tmpls": [
                 {
@@ -147,7 +158,7 @@
                     "ord": 0,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": true
                 },
                 {
                     "font": "Arial",
@@ -173,7 +184,9 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "zdm-2-tyden"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br><br><br>\n<div class=\"extra\">\n{{Extra}}\n</div>",
@@ -200,17 +213,21 @@
             ],
             "guid": "gcZV_<#hw@",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
                 "Definice rozkladu na množině, jeho podmínek, prvky rozkladu",
-                "Pro neprázdnou množinu A nazýváme <b>systém \\( A = \\{ A_i : i \\in I \\} \\) neprázdných podmnožin</b> množiny A <b>rozkladem na množině</b> A, pokud splňuje následuící podmínky:<div>\\(\\bigcup_{i \\in I}A_i = A\\) - <b>podmínka pokrytí</b><br></div><div>\\(A_i \\cap A_j = \\emptyset \\) pro&nbsp;\\( \\forall i, j \\in I, i \\neq j \\) - <b>podmínka diskunkce</b></div><div><b><br></b></div><div>Prvky&nbsp;\\(A_i\\) tohoto systému nazýváme <b>třídami rozkladu</b> na množině A.</div>"
+                "Pro neprázdnou množinu A nazýváme <b>systém \\( A = \\{ A_i : i \\in I \\} \\) neprázdných podmnožin</b> množiny A <b>rozkladem na množině</b> A, pokud splňuje následuící podmínky:<div><br><div>\\(\\bigcup_{i \\in I}A_i = A\\) - <b>podmínka pokrytí</b></div><div>\\(A_i \\cap A_j = \\emptyset \\) pro&nbsp;\\( \\forall i, j \\in I, i \\neq j \\) - <b>podmínka diskunkce</b></div><div><b><br></b></div><div>Prvky&nbsp;\\(A_i\\) tohoto systému nazýváme <b>třídami rozkladu</b> na množině A</div></div>"
             ],
             "guid": "b-gg{XqKKd",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -220,7 +237,9 @@
             ],
             "guid": "w5*Z#&n2X",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -230,7 +249,9 @@
             ],
             "guid": "fp_+FVaMcF",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -240,17 +261,9 @@
             ],
             "guid": "k#yvo^bGqf",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Definice přirozené zobrazení",
-                "Přirozené zobrazení je zobrazení \\(f\\) z množiny X na faktorovou množinu&nbsp;\\( X / R \\) definované předpisem&nbsp;\\( a \\longmapsto [a]_R \\)"
-            ],
-            "guid": "vJ0++lIWN0",
-            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -260,7 +273,9 @@
             ],
             "guid": "fW9n]RiAe=",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -270,7 +285,9 @@
             ],
             "guid": "r%&CI`U)o)",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -280,7 +297,9 @@
             ],
             "guid": "c80%c~F_!S",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -290,7 +309,9 @@
             ],
             "guid": "O=.(Q/0qMY",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -300,7 +321,9 @@
             ],
             "guid": "F(%d78G_F4",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -310,7 +333,9 @@
             ],
             "guid": "Q%U_TP//?=",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -320,7 +345,9 @@
             ],
             "guid": "m(]DO:Lha$",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -330,7 +357,9 @@
             ],
             "guid": "jsL7N@DFbY",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -340,7 +369,9 @@
             ],
             "guid": "l2^X={pQ@s",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -350,7 +381,9 @@
             ],
             "guid": "oN#gS&b[Z;",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -360,7 +393,9 @@
             ],
             "guid": "q,mYzns:xu",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -370,7 +405,9 @@
             ],
             "guid": "K!woNp-<p8",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -380,7 +417,9 @@
             ],
             "guid": "Ms$3wT)F~?",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-1-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -390,7 +429,9 @@
             ],
             "guid": "E_.X4M_ze/",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -400,7 +441,9 @@
             ],
             "guid": "K6t=ossQl_",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -410,7 +453,9 @@
             ],
             "guid": "x@PdYCGcMd",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -420,7 +465,9 @@
             ],
             "guid": "Ek8X9x$)3i",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -430,7 +477,9 @@
             ],
             "guid": "E|=GNee#4N",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -440,7 +489,9 @@
             ],
             "guid": "iTEfANl@w2",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -450,7 +501,9 @@
             ],
             "guid": "d@O{?t>D~}",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -460,7 +513,9 @@
             ],
             "guid": "t3OdDr<8ri",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -470,7 +525,9 @@
             ],
             "guid": "xJ:uK;>$_[",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -480,7 +537,9 @@
             ],
             "guid": "dyj73HV~Mo",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -490,7 +549,9 @@
             ],
             "guid": "ED}F{32dki",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -500,7 +561,9 @@
             ],
             "guid": "LLMx!fzae=",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -510,7 +573,9 @@
             ],
             "guid": "k;pvw{+U}F",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -520,7 +585,9 @@
             ],
             "guid": "zd`7&!~7kh",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -530,27 +597,9 @@
             ],
             "guid": "I`&Xaz=?Wm",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Principl dobrého uspořádání",
-                "\\((N, \\leq)\\) je dobře uspořádaná množina"
-            ],
-            "guid": "iEIh/!L!_b",
-            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Věta o principech indukce a dobrého uspořádání",
-                "Principy indukce jsou ekvivalentní s principem dobrého uspořádání"
-            ],
-            "guid": "m/tC^L<upv",
-            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -560,7 +609,9 @@
             ],
             "guid": "cM#kj,PA[h",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-4-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -570,7 +621,9 @@
             ],
             "guid": "rOj]s3d19T",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-5-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -580,7 +633,9 @@
             ],
             "guid": "lH5a{qS:5F",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-5-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -590,7 +645,9 @@
             ],
             "guid": "i%Kwc&vgR]",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-5-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -600,7 +657,9 @@
             ],
             "guid": "x)n~r!K)dZ",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-5-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -610,7 +669,9 @@
             ],
             "guid": "sbSzPhCvn4",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -620,7 +681,9 @@
             ],
             "guid": "ri65)}5:_n",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -630,7 +693,9 @@
             ],
             "guid": "G8Z?{&IAdl",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -640,7 +705,9 @@
             ],
             "guid": "O!.R^kOC%?",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -650,7 +717,9 @@
             ],
             "guid": "t;i:F-PVTv",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -660,7 +729,9 @@
             ],
             "guid": "xlCk.!Fh!R",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -670,7 +741,9 @@
             ],
             "guid": "EzFINgqNKX",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -680,7 +753,9 @@
             ],
             "guid": "B=Cw-1Nw&v",
             "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -690,7 +765,9 @@
             ],
             "guid": "it_Ud|SSU>",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -700,7 +777,9 @@
             ],
             "guid": "J]7mZy^Bvm",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -710,17 +789,9 @@
             ],
             "guid": "BVVgR.4TW|",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\\[ A \\cap(B \\cup C)=(A \\cup B) \\cap(A \\cup C)\\] {{c1::není::není/je}} pravda, podle zákona {{c1::-}}",
-                ""
-            ],
-            "guid": "tYpAxVl+&~",
-            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -730,7 +801,9 @@
             ],
             "guid": "dK|-jBs]pg",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -740,7 +813,9 @@
             ],
             "guid": "CMYu%>S8t4",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -750,7 +825,9 @@
             ],
             "guid": "Kg/D8g-|6G",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -760,7 +837,9 @@
             ],
             "guid": "IB[6#l4gEq",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -770,7 +849,9 @@
             ],
             "guid": "P+TZOYB,;E",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -780,7 +861,9 @@
             ],
             "guid": "g,?#f*13y6",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -790,7 +873,9 @@
             ],
             "guid": "d;4>cgLm,w",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -800,7 +885,9 @@
             ],
             "guid": "sI%J(Y0_sd",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -810,7 +897,9 @@
             ],
             "guid": "eKCMsMN;eQ",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -820,7 +909,9 @@
             ],
             "guid": "B3>[&-0jra",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -830,7 +921,9 @@
             ],
             "guid": "oAcsN4[M>@",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -840,7 +933,9 @@
             ],
             "guid": "ghUFbE|r[j",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -850,7 +945,9 @@
             ],
             "guid": "Es(}!.;^y[",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -860,7 +957,9 @@
             ],
             "guid": "GPX8-,V8Mm",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -870,17 +969,21 @@
             ],
             "guid": "q-pOTuvt+*",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Definice průniku \\(A\\) a \\(B\\) je \\(\\quad A \\cap B=\\) {{c1::\\(\\{x \\in \\mathcal{U} ; x \\in A \\wedge x \\in B\\}\\),}}",
+                "Definice průniku \\(A\\) a \\(B\\) je \\(A \\cap B=\\) {{c1::\\(\\{x \\in \\mathcal{U} ; x \\in A \\wedge x \\in B\\}\\),}}",
                 ""
             ],
             "guid": "e/NZXyAW*?",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -890,7 +993,9 @@
             ],
             "guid": "i^?C6N7^5P",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -900,7 +1005,9 @@
             ],
             "guid": "eG_`!iQZp6",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -910,7 +1017,9 @@
             ],
             "guid": "&k;IyrO<9",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -920,7 +1029,9 @@
             ],
             "guid": "P8,<KBd7zg",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -930,7 +1041,9 @@
             ],
             "guid": "e#V~I]Ut9o",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -940,7 +1053,9 @@
             ],
             "guid": "J8PsC539sD",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -950,7 +1065,9 @@
             ],
             "guid": "EN_P<?%57s",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -960,7 +1077,9 @@
             ],
             "guid": "xGov{WB}u9",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -970,7 +1089,9 @@
             ],
             "guid": "e]*&;EOOWH",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -980,7 +1101,9 @@
             ],
             "guid": "kPkHpo7U(j",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -990,7 +1113,9 @@
             ],
             "guid": "f=_2mNM)!_",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1000,7 +1125,9 @@
             ],
             "guid": "q`b9<8oF:l",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1010,7 +1137,9 @@
             ],
             "guid": "k]jM+g2Ld_",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1020,7 +1149,9 @@
             ],
             "guid": "bUENZe]?Y1",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1030,7 +1161,9 @@
             ],
             "guid": "pSHf|W}/2z",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1040,7 +1173,9 @@
             ],
             "guid": "p%c]XaF5#:",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1050,7 +1185,9 @@
             ],
             "guid": "Ir~g[X~IBL",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1060,7 +1197,9 @@
             ],
             "guid": "G+G1]{1aB",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1070,7 +1209,9 @@
             ],
             "guid": "EIqH2mL)%_",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1080,7 +1221,9 @@
             ],
             "guid": "eGv~T8Yv4N",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1090,7 +1233,9 @@
             ],
             "guid": "F_<4-vb?%O",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1100,7 +1245,9 @@
             ],
             "guid": "wW45}TkvFk",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1110,7 +1257,9 @@
             ],
             "guid": "cXE@8;:2NL",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1120,7 +1269,9 @@
             ],
             "guid": "oySt%jcj*t",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1130,7 +1281,9 @@
             ],
             "guid": "K(;n3:VP,Y",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1140,7 +1293,9 @@
             ],
             "guid": "e#B;&hIn6L",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1150,7 +1305,9 @@
             ],
             "guid": "kN;PeCS2i0",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1160,7 +1317,9 @@
             ],
             "guid": "h{<euPG2Hs",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-2-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1170,7 +1329,9 @@
             ],
             "guid": "v,p1]O0B~]",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1180,7 +1341,9 @@
             ],
             "guid": "z=94n-98q",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1190,7 +1353,9 @@
             ],
             "guid": "fe`@if@aDT",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1200,7 +1365,9 @@
             ],
             "guid": "6}6nMW5/f",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1210,7 +1377,9 @@
             ],
             "guid": "FkAe.2!B}q",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1220,7 +1389,9 @@
             ],
             "guid": "N>+M.+E|.3",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1230,7 +1401,9 @@
             ],
             "guid": "lPv&jHt?{h",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1240,7 +1413,9 @@
             ],
             "guid": "QJTR1g{5h+",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1250,7 +1425,9 @@
             ],
             "guid": "K5=6X%!mTY",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1260,7 +1437,9 @@
             ],
             "guid": "gd*4VuAw.%",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1270,7 +1449,9 @@
             ],
             "guid": "PdRcmE^eM",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1280,7 +1461,9 @@
             ],
             "guid": "g`Cq`4BRL4",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1290,17 +1473,21 @@
             ],
             "guid": "s^okX#/$_8",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-7-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "\\(\\left(b_{n}\\right)_{n=n_{0}}^{\\infty}\\) je kvazipolynom, jestliže existuje {{c1::\\(\\lambda \\in \\mathbb{R}\\) a polynom \\(P(n)\\) takový, že \\(b_{n}=P(n) \\lambda^{n}\\) pro všechna \\(n \\geq n_{0}\\)}}",
+                "\\(\\left(b_{n}\\right)_{n=n_{0}}^{\\infty}\\) je <b>kvazipolynom</b>, jestliže existuje {{c1::\\(\\lambda \\in \\mathbb{R}\\) a polynom \\(P(n)\\) takový, že \\(b_{n}=P(n) \\lambda^{n}\\) pro všechna \\(n \\geq n_{0}\\)}}",
                 ""
             ],
             "guid": "Ha]G]#pAk$",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-8-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1310,7 +1497,9 @@
             ],
             "guid": "C[Ns@&/JUH",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-8-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1320,7 +1509,9 @@
             ],
             "guid": "Je-ow]I&7S",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-8-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1330,7 +1521,9 @@
             ],
             "guid": "pt[^W,Q`#L",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1340,7 +1533,9 @@
             ],
             "guid": "xbj(t27[#@",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1350,7 +1545,9 @@
             ],
             "guid": "Hnx.V6]=5s",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1360,7 +1557,9 @@
             ],
             "guid": "ykD>L|oa5?",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1370,7 +1569,9 @@
             ],
             "guid": "oi7(?}6iq!",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1380,7 +1581,9 @@
             ],
             "guid": "H4VX_rB($",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1390,7 +1593,9 @@
             ],
             "guid": "lu|F_m_nie",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1400,7 +1605,9 @@
             ],
             "guid": "eaI5X~KB:y",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-9-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1410,7 +1617,9 @@
             ],
             "guid": "JEW3bqR}t!",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1420,7 +1629,9 @@
             ],
             "guid": "cZWd+Ooj:!",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1430,7 +1641,9 @@
             ],
             "guid": "E103}Cbj)g",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1440,17 +1653,21 @@
             ],
             "guid": "O<1!Km+uBx",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "&nbsp;\\(a c \\equiv b c(\\bmod m)\\) implikuje {{c1::\\(a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)\\)}} právě když d je největší společný dělitel čísel m a c",
+                "&nbsp;\\(a c \\equiv b c(\\bmod m)\\) implikuje {{c1::\\(a \\equiv b \\left(\\bmod \\frac{m}{d}\\right)\\)}} právě když d je největší společný dělitel čísel m a c",
                 "hint: Věta 3<br>Necht \\(a, b, c \\in \\mathbb{Z}\\) a \\(m \\in \\mathbb{N}^{+}\\) a necht platí \\(a c \\equiv b c(\\bmod m)\\). Potom platí<br>\\[<br>a \\equiv b \\quad\\left(\\bmod \\frac{m}{d}\\right)<br>\\]<br>kde \\(d\\) je největši společný dělitel čísel \\(m\\) a \\(c\\)."
             ],
             "guid": "b:i,@e=Wtb",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1460,7 +1677,9 @@
             ],
             "guid": "r)4kt&eb8Y",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1470,7 +1689,9 @@
             ],
             "guid": "Heu)IiKr5f",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1480,7 +1701,9 @@
             ],
             "guid": "uO;D_9lZkM",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1490,7 +1713,9 @@
             ],
             "guid": "rhTs~KEdZ(",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1500,7 +1725,9 @@
             ],
             "guid": "QhrSlwHUQw",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1510,7 +1737,9 @@
             ],
             "guid": "MxA3[S&7O<",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1520,7 +1749,9 @@
             ],
             "guid": "gP;r@N[x0;",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1530,7 +1761,9 @@
             ],
             "guid": "c;G*Nv4IHW",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1540,7 +1773,9 @@
             ],
             "guid": "b[kuY)zF)!",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1550,7 +1785,9 @@
             ],
             "guid": "nV*u3!C!u6",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1560,7 +1797,9 @@
             ],
             "guid": "N9}0kE=/7]",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1570,7 +1809,9 @@
             ],
             "guid": "mKl#py%$>e",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1580,7 +1821,9 @@
             ],
             "guid": "BO?u$oP3vn",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1590,17 +1833,21 @@
             ],
             "guid": "D?)}-.qce_",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Císlo \\(d \\in \\mathbb{N}^{+}\\) je {{c1::největším společným dělitelem}} čísel \\(a, b\\), pokud je aspoň jedno z čísel \\(a, b\\) nenulové, a \\(d\\) je nejvetší z jejich společných dělitelu (pišeme \\( d = \\operatorname{gcd}( a, b))\\).<br>",
+                "Císlo \\(d \\in \\mathbb{N}^{+}\\) je {{c1::největším společným dělitelem}} čísel \\(a, b\\), pokud je aspoň jedno z čísel \\(a, b\\) nenulové, a \\(d\\) je nejvetší z jejich společných dělitelu.<br>",
                 ""
             ],
             "guid": "fy%Yx|58G]",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1610,7 +1857,9 @@
             ],
             "guid": "BZch8ap:ZQ",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1620,7 +1869,9 @@
             ],
             "guid": "FRaq;]ML8z",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1630,7 +1881,9 @@
             ],
             "guid": "rC%tRku~E0",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1640,7 +1893,9 @@
             ],
             "guid": "xgo$H#uR8q",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1650,7 +1905,9 @@
             ],
             "guid": "B@-4u,MId6",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1660,7 +1917,9 @@
             ],
             "guid": "LWt0sG/F6@",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1670,17 +1929,9 @@
             ],
             "guid": "k^~[*u8`Y]",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "pokračuj tímto",
-                "Věta 13<br>Necht \\(a, b \\in \\mathbb{Z}\\) jsou nenulové. Pak platí \\(\\operatorname{gcd}(a, b) \\cdot \\operatorname{lcm}(a, b)=|a| \\cdot|b| .\\)"
-            ],
-            "guid": "g*]<esJ=i%",
-            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1690,17 +1941,21 @@
             ],
             "guid": "In{#0,A9g2",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "&nbsp;\\(a \\equiv b(\\bmod m) = \\)&nbsp;{{c1::\\(m \\mid(a-b)\\)}}",
+                "&nbsp;\\(a \\equiv b(\\bmod m) \\Leftrightarrow \\)&nbsp;{{c1::\\(m \\mid(a-b)\\)}}",
                 "hint: Definice 3 (Kongruence)<br>Necht' \\(a, b, m \\in \\mathbb{Z}\\), přičemž \\(m&gt;1\\)<br>Pokud \\(m \\mid(a-b)\\), řikáme, že a je kongruentní s \\(b\\) modulo \\(m\\) a pišeme \\(a \\equiv b(\\bmod m)\\)<br>- Pokud \\(m \\nmid(a-b)\\), řikáme, že \\(a\\) není kongruentní s \\(b\\) modulo \\(m\\) a pišeme \\(a \\neq b(\\bmod m)\\)"
             ],
             "guid": "eD89rZJtkn",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1710,7 +1965,9 @@
             ],
             "guid": "N&cmzi_E&W",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1720,7 +1977,9 @@
             ],
             "guid": "O@pf&<n~($",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1730,7 +1989,9 @@
             ],
             "guid": "vq!Eis!nh",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1740,7 +2001,9 @@
             ],
             "guid": "dOcR*GQw:$",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1750,7 +2013,9 @@
             ],
             "guid": "jb6rscp1*+",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1760,17 +2025,21 @@
             ],
             "guid": "ey-Tp*igmD",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Konečné těleso je&nbsp;{{c1::komutativní okruh}} takové, že&nbsp;{{c1::<span style=\"color: var(--text-fg);\">\\(\\left(\\mathbb{Z}_{m}, \\oplus, \\odot\\right)\\),&nbsp;</span>\\(m\\) je prvočíslo<span style=\"color: var(--text-fg);\">}}</span><br>",
+                "Konečné těleso je&nbsp;{{c1::komutativní okruh}} právě když {{c2::<span style=\"color: var(--text-fg);\">\\(\\left(\\mathbb{Z}_{m}, \\oplus, \\odot\\right)\\),&nbsp;</span>\\(m\\) je prvočíslo<span style=\"color: var(--text-fg);\">}}</span><br>",
                 ""
             ],
             "guid": "wF`H~-np|l",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-10-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1780,37 +2049,45 @@
             ],
             "guid": "G.{d%k/G`F",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-12-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Rovnice&nbsp;\\(4x + 8y = 2\\)&nbsp;{{c1::má::má/nemá}} alespoň jedno řešení",
+                "Rovnice&nbsp;\\(4x + 8y = 2\\)&nbsp;{{c1::nemá::má/nemá}} alespoň jedno řešení",
                 "Věta 1 (o existenci řešení diofantické rovnice)<br>Lineární diofantická rovnice \\(a x+b y=c\\) má alespoň jedno řešení právě tehdy, \\(k d y^{ } \\operatorname{gcd}(a, b) \\mid c\\)"
             ],
             "guid": "qn/G(FQkC(",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-12-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
                 "Množina všechn řešení diofantické rovnice je&nbsp;{{c1::<span style=\"color: var(--text-fg);\">\\[</span><div>\\left\\{\\left(x_{0}+\\frac{b}{\\operatorname{gcd}(a, b)} \\cdot k, y_{0}-\\frac{a}{\\operatorname{gcd}(a, b)} \\cdot k\\right): k \\in \\mathbb{Z}\\right\\}</div>\n<span style=\"color: var(--text-fg);\">\\]</span>}}",
-                "<div>\\[</div>\n<div>\\left\\{\\left(x_{0}+\\frac{b}{\\operatorname{gcd}(a, b)} \\cdot k, y_{0}-\\frac{a}{\\operatorname{gcd}(a, b)} \\cdot k\\right): k \\in \\mathbb{Z}\\right\\}</div>\n<div>\\]</div>"
+                "<div>\\(\\left\\{\\left(x_{0}+\\frac{b}{\\operatorname{gcd}(a, b)} \\cdot k, y_{0}-\\frac{a}{\\operatorname{gcd}(a, b)} \\cdot k\\right): k \\in \\mathbb{Z}\\right\\}\\)</div>"
             ],
             "guid": "Ei?<@9B/>~",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-12-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
                 "Lineární kongruance má řešení právě tehdy, když {{c1::\\(<span style=\"color: var(--text-fg);\">\\operatorname{gcd}(a, m) \\mid b\\)</span>}}",
-                "<div>Věta 3</div>\n<div>Lineární kongruence má řešení právě tehdy, \\(k d y \\check{z} \\operatorname{gcd}(a, m) \\mid b\\). Všechna řešení jsou tvaru</div>\n<div>\\[</div>\n<div>x=x_{0}+k \\cdot \\frac{m}{g c d(a, m)}</div>\n<div>\\]</div>\n<div>kde \\(k\\) je libovolné celé číslo a pro \\(x_{0}\\) existuje \\(y_{0}\\) takové, že dvojice \\(\\left(x_{0}, y_{0}\\right)\\) je řešením rovnice \\(a \\cdot x+m \\cdot y=b\\).</div>"
+                "<div>Věta 3</div>\n<div>Lineární kongruence má řešení právě tehdy, \\(k d y \\check{z} \\operatorname{gcd}(a, m) \\mid b\\). Všechna řešení jsou tvaru</div>\n<div>\\(x=x_{0}+k \\cdot \\frac{m}{g c d(a, m)}\\)</div>\n<div>kde \\(k\\) je libovolné celé číslo a pro \\(x_{0}\\) existuje \\(y_{0}\\) takové, že dvojice \\(\\left(x_{0}, y_{0}\\right)\\) je řešením rovnice \\(a \\cdot x+m \\cdot y=b\\).</div>"
             ],
             "guid": "Gzb?{5a{EO",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-12-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1820,7 +2097,9 @@
             ],
             "guid": "Kx(Z)M1(+|",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-12-tyden"
+            ]
         },
         {
             "__type__": "Note",
@@ -1830,17 +2109,117 @@
             ],
             "guid": "j<#?<+bu}v",
             "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "tags": [
+                "zdm-12-tyden"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "update {{c1::hello}}",
-                "update"
+                "Definice zobrazení",
+                "<img src=\"paste-33b00fa01b1099eda6935549166a97db4e6e27a4.jpg\">"
             ],
-            "guid": "zU2<j<MWH;",
-            "note_model_uuid": "15a9fad0-5529-11eb-bb95-38d5479d0148",
-            "tags": []
+            "guid": "FR}g$zD(I0",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-2-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj princip superpozice",
+                "<img src=\"paste-51967dc9dddadbdefe82235c0bb66d2cd040bb80.jpg\">"
+            ],
+            "guid": "hT4_=I/8AN",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-8-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš bezoutovu rovnost",
+                "<img src=\"paste-1d40d7652737134fd30caa8bb741d5dcf8b9d7be.jpg\">"
+            ],
+            "guid": "tomtXu{O[i",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-10-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Popiš euklidův algoritmus",
+                "<img src=\"paste-8795fb74c652f8bc5df0dfb15327296c3b4431b5.jpg\">"
+            ],
+            "guid": "n6;JD@:JNb",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-10-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vyslov základní větu aritmetiky",
+                "<img src=\"paste-847975d8dbf8afb5196a289688beb5f385aa9e66.jpg\">"
+            ],
+            "guid": "ClEntc]&m",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-10-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj kongruenci",
+                "<img src=\"paste-74f3a48f33119bfab010b813e492e56234fd7eab.jpg\">"
+            ],
+            "guid": "z.c.LJO,tT",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-10-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definuj zbytkovou třídu modulo",
+                "<img src=\"paste-1e596a7945dd6ffa23bd268782fc4554a76b31b7.jpg\">"
+            ],
+            "guid": "w-[p!Qn~z7",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-10-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vyslov větu o existence inverze v prvočíselném modulu",
+                "<img src=\"paste-d5bf99a9e4a6421dea3ddf57fee5f03e29c1fd63.jpg\">"
+            ],
+            "guid": "hzw:g6>~I!",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-10-tyden"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kolik existuje prvočísel?",
+                "Nekonečně mnoho"
+            ],
+            "guid": "LI38g|JC(L",
+            "note_model_uuid": "15a831d2-5529-11eb-bb95-38d5479d0148",
+            "tags": [
+                "zdm-11-tyden"
+            ]
         }
     ]
 }
